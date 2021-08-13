@@ -58,8 +58,11 @@ img {
 }
 
 hr {
-    display: none
-}
+     display: block;
+    margin: 0;
+    border: 1px solid #cccccc;
+    z-index: 10005;
+ }
 
 table {
     border-collapse: collapse;
@@ -304,8 +307,8 @@ textarea:focus {
 }
 
 .w1200 {
-    width: 1200px;
-    margin: 0 auto;
+    width: 1200px; !important;
+    margin: 0 auto; !important;
 }
 
 .w1300 {
@@ -320,8 +323,8 @@ textarea:focus {
 }
 
 .w1100 {
-    width: 1100px;
-    margin: 0 auto;
+    width: 1100px; !important;
+    margin: 0 auto; !important;
 }
 
 
@@ -335,7 +338,7 @@ textarea:focus {
 
 /* link */
 a {
-    color: #ffffff;
+    color: #111111;
 }
 
 a:hover {
@@ -801,6 +804,10 @@ a.u:hover {
     font-size: 35px !important
 }
 
+.fs40 {
+    font-size: 40px !important
+}
+
 .fs45 {
     font-size: 45px !important
 }
@@ -936,52 +943,88 @@ a.u:hover {
     height: 100px;
 }
 
-/* nav 영역 */
+
+
+/*=============================>> 여기서 부터 진짜 css 시작 / 위는 공통 제어 부분 <<===================================*/
+
+
+
+
+/* nav 영역 = Gnb 영역 */
 nav {
     display: inline-block;
     position: fixed;
-    top: 40px;
+    top: 0px;
     z-index: 10001;
 }
 
 .nav {
-    display: inline-block;
+    display: block;
     position: absolute;
-    top: 40px;
+    top: 0px;
     z-index: 10001;
 }
 
+.nav_under {
+     width: 100%;
+     height: 1px;
+     background: #dbdbdb;
+     bottom: 0;
+ }
+
+.nav_under_ab {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #dbdbdb;
+    bottom: 0;
+}
+
+.nav_top_ab {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #dbdbdb;
+    top: 0;
+}
 
 .bi {
     float: left;
-    margin-left: 50px;
+    margin-left: 10%;
+    margin-top: 15px;
 }
 
 #topmenu {
-    height: 40px;
+    height: 70px;
     width: 100%;
+    background: #ffffff;
 }
 
 #topmenu ul li {
     list-style: none;
     display: inline-block;
-    color: #ffffff;
+    color: #111111;
     float: left;
-    line-height: 32px;
+    line-height: 70px;
     vertical-align: middle;
     text-align: center;
-    font-size: 11pt;
+    font-size: 13pt;
+    font-weight: 500;
 }
 
 
 .menutitle {
+    height: 80px;
     float: right;
-    margin-right: 50px;
+    margin-right: 10%;
+    color: #111111;
 }
 
 .menutitle a:hover {
-    color: lightgrey;
-    font-weight: 400;
+    color: #999999;
+    font-weight: 500;
     transition: all 0.2s;
 }
 
@@ -994,144 +1037,434 @@ nav {
 
 
 #fp-nav ul li a span {
-    background-color: white;
+    background-color: gray;
 }
 
 .s0 {
-    background-image: url('../img/main_sec1.png');
-    background-repeat: repeat;
-    background-size: cover;
+    background-color: #ffffff;
+
 }
 
 .s1 {
-    background-color: #0c0c0c;
+    background-color: #ffffff;
 }
 
 .s2 {
-    background-color: #000000;
-}
-
-.s3 {
-    background-color: #000000;
-}
-
-.s4 {
-    background-image: url('../img/main_mamamoo.jpg');
-    background-repeat: repeat;
-    background-size: cover;
+    background-color: #ffffff;
 }
 
 
-.s5 {
-    background-image: url('../img/main_sf9.jpg');
-    background-repeat: repeat;
-    background-size: cover;
-}
-
-.s6 {
-    background-image: url('../img/main_onf.jpg');
-    background-repeat: repeat;
-    background-size: cover;
-}
-
-
-
-.sec_title {
-    display: block;
-    position: absolute;
-    margin-left: 10%;
-}
-
-
-
-.scroll_down {
-    display: block;
-    position: absolute;
-    text-align: center;
-    z-index: 1001;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    bottom: 0;
-}
-
-.scroll_img {
-    height: 65px;
-    background-repeat: repeat;
-}
-
-.main_sec_center {
-    display: block;
-    text-align: center;
-}
-
-
-.main_obj {
+.s1_box {
     display: inline-block;
+    width: 300px;
+    height: 250px;
+    background: white;
+    border: 1px solid #cccccc;
+    line-height: 250px;
+    background: #EFEFEF;
+}
+
+.s1_box2 {
+    display: inline-block;
+    width: 650px;
+    height: 250px;
+    background: white;
+    border: 1px solid #cccccc;
+    line-height: 35px;
+    margin-left: -5px;
+}
+
+
+/*login_css : 로그인 영역 css*/
+
+.login {
+    display: block;
     position: relative;
+    background: #2F2D75;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 80px;
 }
 
-.main_sectext {
-    display: inline-block;
+.abataimg {
     position: relative;
-    text-align: left;
+    margin-bottom: -50px;
+    z-index: 2;
 }
 
-.vr_text {
-    margin-left: 60%;
-    margin-bottom: 10%;
+.login_box {
+    display: block;
+    position: relative;
+    width: 500px;
+    height: 520px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 0 auto;
+    z-index: 1;
 }
 
-.motion_text {
-    margin-left: 40%;
-    margin-bottom: 5%;
+.id input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: #cccccc solid 2px;
+    padding: 10px;
+    width: 400px;
+    background-image: url("../img/id_icon.png");
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    transition: all 0.3s;
 }
 
-.img_box {
-    display: inline-block;
-    width: 350px;
-    height: 530px;
-    overflow: hidden;
+.pw input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: #cccccc solid 2px;
+    padding: 10px;
+    width: 400px;
+    background-image: url("../img/pw_icon.png");
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    transition: all 0.3s;
 }
 
-.img_box:hover {
-    background-color: #111111;
-    opacity: 1;
-    transition: all ease 1s;
+.id input:focus {
+    border-bottom: #2F2D75 solid 2px;
+    transition: all 0.3s;
+    background-image: url("../img/id_icon_on.png");
 }
 
-.scale {
-    transform: scale(1);
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transition: all 0.3s ease-in-out;   /* 부드러운 모션을 위해 추가*/
-}
-.scale:hover {
-    transform: scale(1.15);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    opacity: 40%;
+.pw input:focus {
+    border-bottom: #2F2D75 solid 2px;
+    background-image: url("../img/pw_icon_on.png");
+    transition: all 0.3s;
 }
 
-.banner_text {
-    color: #ffffff;
+.ccheck input[type="checkbox"] {
+    display:none;
+}
+
+.ccheck label{
     font-size: 15px;
+    color: #111111;
     font-weight: 400;
 }
 
-
-.viewmore_btn {
-    height: 50px;
-    width: 200px;
-    color: #ffffff;
-    background-color: rgba(0, 0, 0, 0);
-    border: #ffffff solid 1px;
-    border-radius: 50px;
-    text-align: center;
+.ccheck input[type="checkbox"] + label .chk_img {
+    padding:0 0 0 30px;
+    height:30px;
+    background:url("../img/check_off.png")no-repeat;
+    cursor:pointer;
+    transition: all 0.3s;
 }
+.ccheck input[type="checkbox"]:checked + label .chk_img {
+    background:url("../img/check_on.png")no-repeat;
+    transition: all 0.3s;
+}
+
+.login_btn input {
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    background: #2F2D75;
+    font-size: 15pt;
+    border-radius: 60px;
+}
+
+.footer_login {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 180px;
+    background: white;
+}
+
+.footer_img {
+    display: inline-block;
+    position: relative;
+}
+
+.footer_text {
+    display: inline-block;
+    position: relative;
+    margin-left: 50px;
+}
+
+.footer_center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 850px;
+}
+
+
+
+/*gnb_1 css : 생산성 예측*/
+
+.tab_1 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height:60px;
+    background: white;
+    line-height: 60px;
+    top: 70px;
+    overflow: hidden;
+}
+
+.tab_1_right {
+    display: block;
+    position: absolute;
+    right: 10%;
+    overflow: hidden;
+}
+
+.tab_2 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height:60px;
+    background: #F4F4F4;
+    line-height: 60px;
+    top: 70px;
+    overflow: hidden;
+}
+
+.tab_2_right {
+    display: block;
+    position: absolute;
+    right: 10%;
+    overflow: hidden;
+}
+
+.tab_3 {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height:70px;
+    background: white;
+    line-height: 70px;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.tab_3_right {
+    display: block;
+    position: absolute;
+    right: 10%;
+    overflow: hidden;
+}
+
+
+input {
+    box-shadow: none;
+    text-decoration: none;
+    border: #cccccc solid 1px;
+}
+
+select {
+    box-shadow: none;
+    text-decoration: none;
+    border: #cccccc solid 1px;
+}
+
+.farm_year select {
+    display: inline-block;
+    position: relative;
+    height: 35px;
+    width: 110px;
+    line-height: 35px;
+    font-size: 10pt;
+    font-weight: 400;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.farm_name input {
+    display: inline-block;
+    position: relative;
+    height: 35px;
+    width: 250px;
+    line-height: 35px;
+    font-size: 10pt;
+    font-weight: 400;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #EFEFEF;
+}
+
+.farm_search input {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 35px;
+    background: #2F2D75;
+    color: white;
+    line-height: 35px;
+    font-size: 10pt;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-left: -6px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+}
+
+.gray_btn input {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    background: #898989;
+    color: white;
+    font-size: 10pt;
+    font-weight: 400;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.navy_btn input {
+    display: inline-block;
+    position: relative;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    background: #2F2D75;
+    color: white;
+    line-height: 35px;
+    font-size: 10pt;
+    font-weight: 400;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.content_title {
+    display: block;
+    position: relative;
+    margin-top: 100px;
+    font-size: 16pt;
+    font-weight: 600;
+    color: black;
+}
+
+.content_area {
+    display: block;
+    position: relative;
+    min-height: 550px;
+    height: fit-content;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    padding: 20px 20px 80px 20px;
+    font-size: 10pt;
+    font-weight: 400;
+}
+
+.area_bg {
+     background: #F4F4F4;
+ }
+
+.area_bg_white {
+    background: #ffffff;
+}
+
+.area_border {
+    border: #dbdbdb 1px solid;
+    border-radius: 5px;
+}
+
+.tab_3 {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height:70px;
+    background: white;
+    line-height: 70px;
+    bottom: 0;
+    overflow: hidden;
+}
+
+
+/*gnb_3 css : 성적 분석 메뉴*/
+
+.grade_area {
+    display: block;
+    position: relative;
+    min-height: 520px;
+    height: fit-content;
+    margin-top: 10px;
+    font-size: 10pt;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+
+.grade_data {
+    display: block;
+    position: absolute;
+    width: 1200px;
+    height: 520px;
+}
+
+.raw_1 {
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 520px;
+    line-height: 40px;
+}
+
+.raw_2 {
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 520px;
+    left: 400px;
+    line-height: 40px;
+}
+
+.raw_3 {
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 520px;
+    left: 800px;
+    line-height: 40px;
+}
+
+.grade_data input {
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 11pt;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 5px;
+    right: 50px;
+    text-align: right;
+}
+
+
+.gradetab_right {
+    display: block;
+    position: relative;
+    top: 20px;
+    left: 874px;
+}
+
+
+
+
+
+
+
+
+
 
 /*about_ful css*/
 
@@ -1915,13 +2248,6 @@ a .screen:hover img{
 
 @media (max-width:800px) {
 
-    .w1200 {
-        width: 100%;
-    }
-
-    .w1100 {
-        width: 100%;
-    }
 
     /* main css 영역 */
     #fp-nav ul li a span {

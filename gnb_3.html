@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <head>
+        <meta http-equv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <title>성적 분석</title>
+
+        <link rel="shortcut icon" href="favicon.ico type=">
+        <link rel="icon" href="favicon.ico type=">
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"
+              integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+              crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+                integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A=="
+                crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <script src="js/wow.min.js"></script>
+        <script>
+            var wow = new WOW(
+                {
+                    boxClass: 'wow',      // animated element css class (default is wow)
+                    animateClass: 'animate__animated', // animation css class (default is animated)
+                    offset: 100,          // distance to the element when triggering the animation (default is 0)
+                    mobile: true,       // trigger animations on mobile devices (default is true)
+                    live: true,       // act on asynchronously loaded content (default is true)
+                    callback: function (box) {
+                        // the callback is fired every time an animation is started
+                        // the argument that is passed in is the DOM node being animated
+                    },
+                    scrollContainer: null,    // optional scroll container selector, otherwise use window,
+                    resetAnimation: true,     // reset animation on end (default is true)
+                }
+            );
+            wow.init();
+
+        </script>
+
+        <link rel="stylesheet" href="css/index.css"/>
+
+    </head>
+<body>
+
+
+<div id="topmenu" class="nav">
+    <div class="bi">
+        <a href="index.html">
+            <img src="./img/alion_bi.png" alt="bi_img" height="42px"/>
+        </a>
+    </div>
+    <div class="menutitle">
+        <ul>
+            <li><a href="gnb_1.html">생산성 예측</a></li>
+            <li><a class="ml30" href="gnb_2.html">지표 비교</a></li>
+            <li><a class="ml30" href="gnb_3.html">성적 분석</a></li>
+            <li><span class="fs14 ml50"><a href="contact.html">정보수정</a> &emsp;|&emsp; <a href="login.html"
+                                                                                         onclick="alert('정상적으로 로그아웃 되었습니다.')">로그아웃</a></span>
+            </li>
+        </ul>
+    </div>
+    <div class="nav_under_ab"></div>
+</div>
+
+<div class="tab_1">
+    <div class="tab_1_right">
+    <span class="fs15 fc_black fw400 mr10">연도</span>
+  <span class="farm_year">
+  <select name="year">
+    <option value="2000" selected="selected">2000</option>
+    <option value="2001">2001</option>
+    <option value="2002">2002</option>
+    <option value="2003">2003</option>
+    <option value="2004">2004</option>
+    <option value="2005">2005</option>
+    <option value="2006">2006</option>
+    <option value="2007">2007</option>
+    <option value="2008">2008</option>
+    <option value="2009">2009</option>
+    <option value="2010">2010</option>
+    <option value="2011">2011</option>
+    <option value="2012">2012</option>
+    <option value="2013">2013</option>
+    <option value="2014">2014</option>
+    <option value="2015">2015</option>
+    <option value="2016">2016</option>
+    <option value="2017">2017</option>
+    <option value="2018">2018</option>
+    <option value="2019">2019</option>
+    <option value="2020">2020</option>
+  </select>
+    </span>
+
+    <span class="ml50">
+        <span class="mr10 fs15 fw400 fc_black">농장명</span>
+    <span class="farm_name">
+        <input type="text" value="아우라농장" readonly>
+    </span>
+    <span class="farm_search">
+      <input type="button" value="농장검색">
+    </span>
+    </span>
+    </div>
+    <div class="nav_under_ab"></div>
+</div>
+
+
+<section class="w1200">
+    <div class="content_title">
+        성적 분석 데이터
+    </div>
+    <div class="grade_area area_bg_white area_border">
+        <div class="grade_data">
+            <div class="raw_1">
+                <div class="ml50 fs13 fc_black fw400 mt40">*평균총산(두) : <input type="text" value="13"></div>
+                <div class="ml50 fs13 fc_black fw400 mt40">*이유전폐사율(%) : <input type="text" value="9.1"></div>
+                <div class="ml50 fs13 fc_black fw400 mt40">*포유기간 : <input type="text" value="23.7"></div>
+                <div class="ml50 fs13 fc_black fw400 mt40">*이유~교배(일) : <input type="text" value="13.8"></div>
+                <div class="ml50 fs13 fc_black fw400 mt40">*교배~사고(일) : <input type="text" value="16.8"></div>
+                <div class="ml50 fs13 fc_black fw400 mt40">*사고~도폐사(일) : <input type="text" value="0.6"></div>
+            </div>
+            <div class="raw_2">
+                <div class="ml50 fs13 fc_black fw400 mt40">*생지자돈사고율(%) : <input type="text" value="13"></div>
+                <div class="ml50 fs13 fc_black fw400 mt40">*평균이유(두) : <input type="text" value="9.1"></div>
+                <div class="ml50 fs13 fc_black fw400 mt40">*비생산일수 : <input type="text" value="23.7"></div>
+                <div class="ml50 fs13 fc_black fw400 mt40">*교배 후 기간 : <input type="text" value="13.8"></div>
+                <div class="ml50 fs13 fc_black fw400 mt40">*사고~교배일(일) : <input type="text" value="16.8"></div>
+                <div class="ml50 fs13 fc_black fw400 mt40">*PSY : <input type="text" value="0.6"></div>
+            </div>
+            <div class="raw_3">
+                <div class="ml50 fs13 fc_black fw400 mt40">*평균실산(두) : <input type="text" value="13"></div>
+                <div class="ml50 fs13 fc_black fw400 mt40">*모돈 회전율 : <input type="text" value="9.1"></div>
+                <div class="ml50 fs13 fc_black fw400 mt40">*임신 기간 : <input type="text" value="23.7"></div>
+                <div class="ml50 fs13 fc_black fw400 mt40">*도태 기간 : <input type="text" value="13.8"></div>
+                <div class="ml50 fs13 fc_black fw400 mt40">*이유~도폐사(일) : <input type="text" value="16.8"></div>
+            </div>
+        </div>
+    </div>
+    <div class="gradetab_right">
+    <span class="gray_btn">
+        <input type="button" value="초기화">
+    </span>
+        <span class="ml5 navy_btn">
+        <input type="button" value="적용" onclick="location.href='gnb_3_detail.html'">
+    </span>
+    </div>
+    <div class="nav_top_ab"></div>
+    </div>
+</section>
+
+
+
+</body>
+</head></html>

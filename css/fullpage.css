@@ -164,7 +164,7 @@ html.fp-enabled,
     width: 5.5px;
     margin: -2.75px 0 0 -2.75px;
     border-radius: 100%;
-    background: white;
+    background: #111111;
     opacity: 1;
  }
 #fp-nav ul li a span,
@@ -190,7 +190,7 @@ html.fp-enabled,
     width: 5.5px;
     height: 5.5px;
     margin: -2.75px 0px 0px -2.75px;
-    background: white;
+    background: #111111;
     opacity: 1;
 }
 
