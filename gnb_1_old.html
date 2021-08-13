@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <head>
-        <meta http-equv="Content-Type" content="text/html; charset=utf-8">
-        <meta http-equiv="Content-Style-Type" content="text/css">
-        <title>성적 분석</title>
+        <meta content="text/html; charset=utf-8" http-equv="Content-Type">
+        <meta content="text/css" http-equiv="Content-Style-Type">
+        <title>생산성 예측</title>
 
-        <link rel="shortcut icon" href="favicon.ico type=">
-        <link rel="icon" href="favicon.ico type=">
+        <link href="favicon.ico type=" rel="shortcut icon">
+        <link href="favicon.ico type=" rel="icon">
 
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"
+        <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
               integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
-              crossorigin="anonymous">
+              rel="stylesheet">
         <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        <script crossorigin="anonymous"
                 integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A=="
-                crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+                src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
         <script src="js/wow.min.js"></script>
         <script>
             var wow = new WOW(
@@ -39,13 +39,13 @@
 
         </script>
 
-        <link rel="stylesheet" href="css/index.css"/>
+        <link href="css/index.css" rel="stylesheet"/>
 
     </head>
-
 <body>
 
-<div id="topmenu" class="nav">
+
+<div class="nav" id="topmenu">
     <div class="w1200">
         <div class="bi">
             <a href="index.html">
@@ -54,7 +54,7 @@
         </div>
         <div class="menutitle">
             <ul>
-                <li><a href="gnb_1.html">생산성 예측</a></li>
+                <li><a href="gnb_1_old.html">생산성 예측</a></li>
                 <li><a class="ml30" href="gnb_2.html">지표 비교</a></li>
                 <li><a class="ml30" href="gnb_3.html">성적 분석</a></li>
                 <li><span class="fs14 ml50"><a href="#">정보수정</a> &emsp;|&emsp; <a href="login.html"
@@ -71,14 +71,14 @@
         <div class="tab_1_right">
             <span class="fs15 fc_black fw400 mr10">연도</span>
             <span class="farm_year">
-  <select name="year">
-    <option value="2000" selected="selected">2000</option>
-    <option value="2001">2001</option>
-    <option value="2002">2002</option>
-    <option value="2003">2003</option>
-    <option value="2004">2004</option>
-    <option value="2005">2005</option>
-    <option value="2006">2006</option>
+            <select name="year">
+      <option selected="selected" value="2000">2000</option>
+      <option value="2001">2001</option>
+      <option value="2002">2002</option>
+      <option value="2003">2003</option>
+       <option value="2004">2004</option>
+        <option value="2005">2005</option>
+       <option value="2006">2006</option>
     <option value="2007">2007</option>
     <option value="2008">2008</option>
     <option value="2009">2009</option>
@@ -96,14 +96,37 @@
   </select>
     </span>
 
-            <span class="ml30">
+            <span class="ml50">
         <span class="mr10 fs15 fw400 fc_black">농장명</span>
     <span class="farm_name">
-        <input type="text" value="아우라농장" readonly>
+
+        <input readonly type="text" value="아우라농장">
     </span>
     <span class="farm_search">
       <input type="button" value="농장검색">
     </span>
+    </span>
+
+            <span class="ml50 gray_btn">
+        <input type="button" value="검색 조건 초기화">
+    </span>
+            <span class="ml5 navy_btn">
+        <input type="button" value="조회">
+    </span>
+        </div>
+    </div>
+    <div class="nav_under_ab"></div>
+</div>
+
+
+<div class="tab_2">
+    <div class="w1200">
+        <div class="tab_2_right">
+    <span class="gray_btn">
+        <input type="button" value="양식 다운로드">
+    </span>
+            <span class="ml5 navy_btn">
+        <input type="button" value="업로드">
     </span>
         </div>
     </div>
@@ -112,24 +135,16 @@
 
 
 <section class="w1200">
-    <div class="content_title tab_2_relative">
-        성적 분석 완료
-        <span class="ml10 black_btn">
-        <input type="button" value="다시하기">
-    </span>
-        <span class="ml5 black_btn">
-        <input type="button" value="전체 펼치기">
-    </span>
-        <div class="tab_2_absolute">
+    <div class="content_title">
+        생산성 예측
         <span class="gray_btn">
-        <input type="button" value="그림 다운로드">
+        <input type="button" value="양식 다운로드">
     </span>
-            <span class="ml5 navy_btn">
-        <input type="button" value="엑셀 다운로드">
+        <span class="ml5 navy_btn">
+        <input type="button" value="업로드">
     </span>
-        </div>
     </div>
-    <div class="content_area_3 area_bg area_border">
+    <div class="content_area area_bg area_border">
         해당영역에 콘텐츠 내용이 삽입됩니다.<br/>
         <br/>
         *해당 박스의 사이즈는 width : 1200을 컨테이너 영역으로 하며, min-height 값은 550px 입니다.<br/>
@@ -139,7 +154,17 @@
     </div>
 </section>
 
-
+<div class="tab_3">
+    <div class="tab_3_right">
+    <span class="gray_btn">
+        <input type="button" value="전체모돈 생산성 예측">
+    </span>
+        <span class="ml5 navy_btn">
+        <input type="button" value="선택모돈 생산성 예측">
+    </span>
+    </div>
+    <div class="nav_top_ab"></div>
+</div>
 
 </body>
 </head></html>

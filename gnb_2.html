@@ -46,36 +46,49 @@
 
 
 <div id="topmenu" class="nav">
-    <div class="bi">
-        <a href="index.html">
-            <img src="./img/alion_bi.png" alt="bi_img" height="42px"/>
-        </a>
-    </div>
-    <div class="menutitle">
-        <ul>
-            <li><a href="gnb_1.html">생산성 예측</a></li>
-            <li><a class="ml30" href="gnb_2.html">지표 비교</a></li>
-            <li><a class="ml30" href="gnb_3.html">성적 분석</a></li>
-            <li><span class="fs14 ml50"><a href="#">정보수정</a> &emsp;|&emsp; <a href="login.html"
-                                                                                         onclick="alert('정상적으로 로그아웃 되었습니다.')">로그아웃</a></span>
-            </li>
-        </ul>
+    <div class="w1200">
+        <div class="bi">
+            <a href="index.html">
+                <img alt="bi_img" height="42px" src="./img/alion_bi.png"/>
+            </a>
+        </div>
+        <div class="menutitle">
+            <ul>
+                <li><a href="gnb_1.html">생산성 예측</a></li>
+                <li><a class="ml30" href="gnb_2.html">지표 비교</a></li>
+                <li><a class="ml30" href="gnb_3.html">성적 분석</a></li>
+                <li><span class="fs14 ml50"><a href="#">정보수정</a> &emsp;|&emsp; <a href="login.html"
+                                                                                  onclick="alert('정상적으로 로그아웃 되었습니다.')">로그아웃</a></span>
+                </li>
+            </ul>
+        </div>
     </div>
     <div class="nav_under_ab"></div>
 </div>
 
 <div class="tab_1">
-    <div class="tab_1_right">
-    <span class="fs15 fc_black fw400 mr10">연도</span>
-  <span class="farm_year">
-  <select name="year">
-    <option value="2000" selected="selected">2000</option>
-    <option value="2001">2001</option>
-    <option value="2002">2002</option>
-    <option value="2003">2003</option>
-    <option value="2004">2004</option>
-    <option value="2005">2005</option>
-    <option value="2006">2006</option>
+    <div class="w1200">
+        <div class="tab_1_relative">
+            <span class="fs15 fc_black fw400 mr10">항목</span>
+            <span class="farm_item">
+            <select name="item">
+      <option selected="selected" value="item1">PSY에 대한 포유기간의 영향력 분석</option>
+      <option value="item2">총산자수에 대한 초교배일령의 영향력 분석</option>
+      <option value="item3">발정재귀일에 대한 포유기간의 영향력 분석</option>
+      <option value="item4">총산자수에 대한 포유기간의 영향력 분석</option>
+       <option value="item5">총산자수에 대한 분만율의 영향력 분석</option>
+  </select>
+    </span>
+            <span class="ml30 fs15 fc_black fw400 mr10">연도</span>
+            <span class="farm_year">
+            <select name="year">
+      <option selected="selected" value="2000">2000</option>
+      <option value="2001">2001</option>
+      <option value="2002">2002</option>
+      <option value="2003">2003</option>
+       <option value="2004">2004</option>
+        <option value="2005">2005</option>
+       <option value="2006">2006</option>
     <option value="2007">2007</option>
     <option value="2008">2008</option>
     <option value="2009">2009</option>
@@ -93,65 +106,59 @@
   </select>
     </span>
 
-    <span class="ml50">
+            <span class="ml30">
         <span class="mr10 fs15 fw400 fc_black">농장명</span>
     <span class="farm_name">
 
-        <input type="text" value="아우라농장">
+        <input readonly type="text" value="아우라농장">
     </span>
     <span class="farm_search">
       <input type="button" value="농장검색">
     </span>
     </span>
-
-    <span class="ml50 gray_btn">
+            <div class="tab_1_absolute">
+        <span class="gray_btn">
         <input type="button" value="검색 조건 초기화">
     </span>
-    <span class="ml5 navy_btn">
-        <input type="button" value="조회">
+                <span class="ml5 navy_btn">
+        <input type="button" value="지표 비교">
     </span>
-    </div>
-    <div class="nav_under_ab"></div>
-</div>
-
-<div class="tab_2">
-    <div class="tab_2_right">
-    <span class="gray_btn">
-        <input type="button" value="양식 다운로드">
-    </span>
-    <span class="ml5 navy_btn">
-        <input type="button" value="업로드">
-    </span>
+            </div>
+        </div>
     </div>
     <div class="nav_under_ab"></div>
 </div>
 
 
 <section class="w1200">
-    <div class="content_title">
-        생산성 예측
+    <div class="content_title tab_2_relative">
+        지표 비교
+        <div class="tab_2_absolute">
+        <span class="gray_btn">
+        <input type="button" value="그림 다운로드">
+    </span>
+            <span class="ml5 navy_btn">
+        <input type="button" value="엑셀 다운로드">
+    </span>
+        </div>
     </div>
-    <div class="content_area area_bg area_border">
-        해당영역에 콘텐츠 내용이 들어갑니다.<br />
-        <br />
-        *해당 박스의 사이즈는 width : 1200을 컨테이너 영역으로 하며, min-height 값은 550px 입니다.<br />
-        *600px 보다 아래로 컨텐츠량이 길어지면, 'content_area'의 길이가 길어지며, 하단 padding(여백) 값은 80px 입니다.<br />
-        *해당영역의 <b>배경색 또는 테두리 제거</b>를 원하시면 class="area_bg" class="area_border" 을 각각 제거하세요.<br />
+    </div>
+    <div class="content_area_2_1 area_bg area_border">
+        해당영역의 클래스 명은 content_area_2_1입니다. 해당 영역에는 차트가 삽입됩니다.<br/>
+        <br/>
+        *해당 박스의 사이즈는 width : 1200을 컨테이너 영역으로 하며, height 값은 400px 입니다.<br/>
+        *해당영역의 <b>배경색 또는 테두리 제거</b>를 원하시면 class="area_bg" class="area_border" 을 각각 제거하세요.<br/>
+        *배경색을 하얗게 변경하시려면 class="area_bg"를 class="area_bg_white"로 변경하세요.
+    </div>
+
+    <div class="content_area_2_2 area_bg area_border">
+        해당영역의 클래스 명은 content_area_2_2입니다. 해당 영역에는 표가 삽입됩니다.<br/>
+        <br/>
+        *해당 박스의 사이즈는 width : 1200을 컨테이너 영역으로 하며, height 값은 230px 입니다.<br/>
+        *해당영역의 <b>배경색 또는 테두리 제거</b>를 원하시면 class="area_bg" class="area_border" 을 각각 제거하세요.<br/>
         *배경색을 하얗게 변경하시려면 class="area_bg"를 class="area_bg_white"로 변경하세요.
     </div>
 </section>
-
-<div class="tab_3">
-    <div class="tab_3_right">
-    <span class="gray_btn">
-        <input type="button" value="전체모돈 생산성 예측">
-    </span>
-        <span class="ml5 navy_btn">
-        <input type="button" value="선택모돈 생산성 예측">
-    </span>
-    </div>
-    <div class="nav_top_ab"></div>
-</div>
 
 </body>
 </head></html>

@@ -2,7 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33e6b9c2-7b5e-410a-b75c-f26453e7548a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gnb_1_detail_all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gnb_1_detail_select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gnb_1_old.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gnb_2_old.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gnb_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/gnb_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gnb_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/gnb_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gnb_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/gnb_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gnb_3_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/gnb_3_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about_2015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about_2016.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about_2017.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about_2018.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about_2019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about_2020.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about_2021.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about_animation_thumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about_icon_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about_motion_thumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about_new_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about_new_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about_production.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about_production_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about_title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about_vfx_thumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about_vr_thumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/black_bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/black_bgimg.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/food-drink-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/food-drink-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/food-drink-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/food-drink-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/food-drink-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_mamamoo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_mamamoo_m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_mamamoo_title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_modeling.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_modeling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_motion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_motion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_onf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_onf_m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_onf_title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_sec.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_sec1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_sec1_m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_sec2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_sec2_m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_sec3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_sec3_m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_sec4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_sec4_m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_sec5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_sec5_text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_sf9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_sf9_m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_sf9_title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_vr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_vr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,35 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gnb_3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gnb_2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="2247" lean-forward="true" selection-start-line="2247" selection-end-line="2247" />
+            <state relative-caret-position="324">
+              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
             </state>
           </provider>
         </entry>
@@ -54,17 +90,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gnb_3_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
+            <state relative-caret-position="773">
+              <caret line="128" column="11" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="1629" lean-forward="true" selection-start-line="1629" selection-end-line="1629" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gnb_1.html">
+        <entry file="file://$PROJECT_DIR$/gnb_2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
+            <state relative-caret-position="573">
+              <caret line="143" column="10" lean-forward="true" selection-start-line="143" selection-start-column="10" selection-end-line="143" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -72,60 +117,87 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-178">
               <caret column="15" selection-start-column="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login.html">
+        <entry file="file://$PROJECT_DIR$/gnb_1_old.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="730">
+              <caret line="159" column="37" selection-start-line="159" selection-start-column="36" selection-end-line="159" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/black_bg.gif">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/gnb_1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="133" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gnb_1_detail_all.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="117" column="10" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gnb_1_detail_select.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="125" selection-start-line="125" selection-end-line="135" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gnb_2_old.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hr</find>
-      <find>fff</find>
-      <find>w</find>
-      <find>white</find>
-      <find>w1200</find>
-      <find>box2</find>
-      <find>input</find>
-      <find>url</find>
-      <find>./img</find>
-      <find>id_icon</find>
-      <find>place</find>
-      <find>id_</find>
-      <find>transi</find>
-      <find>icon</find>
-      <find>login</find>
-      <find>fs15</find>
-      <find>nav_under</find>
-      <find>under_</find>
-      <find>ab</find>
-      <find>nav_</find>
-      <find>area_</find>
-      <find>nav</find>
-      <find>tab_3</find>
-      <find>scroll</find>
+      <find>.gradetab</find>
       <find>content_area</find>
-      <find>Gnb+1</find>
-      <find>red</find>
-      <find>area_bor</find>
+      <find>old</find>
+      <find>gnb_1</find>
+      <find>tab_3_ri</find>
+      <find>792</find>
+      <find>902</find>
+      <find>right_gnb</find>
+      <find>content_title</find>
+      <find>btng</find>
+      <find>전</find>
+      <find>top men</find>
+      <find>tab_1_</find>
       <find>tab_1</find>
-      <find>farm</find>
+      <find>oncli</find>
+      <find>조회</find>
+      <find>Tab_2_bl</find>
+      <find>black</find>
+      <find>navy_btyn</find>
+      <find>content</find>
+      <find>Content_area</find>
+      <find>450</find>
+      <find>farm_</find>
+      <find>item</find>
+      <find>farm_name</find>
+      <find>Alert</find>
+      <find>삽입됩</find>
+      <find>area_3</find>
+      <find>ml50</find>
+      <find>gra</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,18 +239,25 @@
         <option value="$PROJECT_DIR$/workdetail_yanolja.html" />
         <option value="$PROJECT_DIR$/css/fullpage.css" />
         <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/gnb_1_new.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/gnb_1_detail.html" />
+        <option value="$PROJECT_DIR$/gnb_2_old.html" />
+        <option value="$PROJECT_DIR$/gnb_1_old.html" />
+        <option value="$PROJECT_DIR$/gnb_3.html" />
+        <option value="$PROJECT_DIR$/gnb_1_detail_select.html" />
+        <option value="$PROJECT_DIR$/gnb_1_detail_all.html" />
+        <option value="$PROJECT_DIR$/gnb_3_detail.html" />
         <option value="$PROJECT_DIR$/gnb_1.html" />
         <option value="$PROJECT_DIR$/gnb_2.html" />
-        <option value="$PROJECT_DIR$/gnb_3.html" />
-        <option value="$PROJECT_DIR$/gnb_3_detail.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="1440" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -186,7 +265,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,12 +286,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -226,8 +305,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -280,21 +359,8 @@
       <workItem from="1628685160601" duration="20198000" />
       <workItem from="1628742514250" duration="21253000" />
       <workItem from="1628841720794" duration="3326000" />
-      <workItem from="1628848294649" duration="483000" />
-    </task>
-    <task id="LOCAL-00017" summary="work 페이지 딤처리 효과 구현 완료 _ 0614">
-      <created>1623596879494</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1623596879494</updated>
-    </task>
-    <task id="LOCAL-00018" summary="work 페이지 딤처리 효과 구현 수정 _ 0614">
-      <created>1623597703637</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1623597703637</updated>
+      <workItem from="1628848294649" duration="7329000" />
+      <workItem from="1628865157913" duration="10109000" />
     </task>
     <task id="LOCAL-00019" summary="메인화면, 헤더 푸터 위치 수정 _ 0614">
       <created>1623598219658</created>
@@ -625,11 +691,25 @@
       <option name="project" value="LOCAL" />
       <updated>1628848629630</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="alion - css delete">
+      <created>1628848791419</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1628848791419</updated>
+    </task>
+    <task id="LOCAL-00067" summary="menu - title 70px">
+      <created>1628848893144</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1628848893144</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="294497000" />
+    <option name="totallyTimeSpent" value="311452000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -641,10 +721,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="1440" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14728682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11005793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -663,14 +743,31 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14728682" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.26987952" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4982382" weight="0.37108433" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5017618" side_tool="true" weight="0.37108433" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="0712&#10;main 이미지 수정&#10;work 썸네일 및 팝업 수정" />
-    <MESSAGE value="main 화면 sns 링크 추가" />
-    <MESSAGE value="0715 수정사항 1차 완료 워크디테일 순서 정리 완료" />
     <MESSAGE value="워크상세페이지 동영상 추가" />
     <MESSAGE value="0723" />
     <MESSAGE value="자간조정_0723" />
@@ -693,28 +790,15 @@
     <MESSAGE value="alion - push" />
     <MESSAGE value="alion - img add" />
     <MESSAGE value="alion" />
-    <option name="LAST_COMMIT_MESSAGE" value="alion" />
+    <MESSAGE value="alion - css delete" />
+    <MESSAGE value="menu - title 70px" />
+    <MESSAGE value="전체 레이아웃 수정 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="전체 레이아웃 수정 완료" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.css" />
-    <entry file="file://$PROJECT_DIR$/workdetail_cello.html" />
-    <entry file="file://$PROJECT_DIR$/workdetail_corziver.html" />
-    <entry file="file://$PROJECT_DIR$/workdetail_dominant.html" />
-    <entry file="file://$PROJECT_DIR$/workdetail_eos.html" />
-    <entry file="file://$PROJECT_DIR$/workdetail_flac.html" />
-    <entry file="file://$PROJECT_DIR$/workdetail_hini.html" />
-    <entry file="file://$PROJECT_DIR$/workdetail_jsh.html" />
-    <entry file="file://$PROJECT_DIR$/workdetail_lotte.html" />
-    <entry file="file://$PROJECT_DIR$/workdetail_mamamoo.html" />
-    <entry file="file://$PROJECT_DIR$/workdetail_mgigs.html" />
-    <entry file="file://$PROJECT_DIR$/img/about_2016.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workdetail_onf.html" />
-    <entry file="file://$PROJECT_DIR$/workdetail_sang.html" />
-    <entry file="file://$PROJECT_DIR$/workdetail_smc.html" />
-    <entry file="file://$PROJECT_DIR$/workdetail_tn.html" />
-    <entry file="file://$PROJECT_DIR$/workdetail_town.html" />
     <entry file="file://$PROJECT_DIR$/workdetail_view.html" />
     <entry file="file://$PROJECT_DIR$/workdetail_yanolja.html" />
     <entry file="file://$PROJECT_DIR$/workdetail_who.html" />
@@ -726,122 +810,55 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about_full.html" />
-    <entry file="file://$PROJECT_DIR$/img/food-drink-3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/food-drink-10.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/food-drink-4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/food-drink-16.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/main_modeling.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/about_2015.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/about_2017.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/alion_bi.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/work_thumb_3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/food-drink-4.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/food-drink-16.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/main_modeling.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/about_2017.png" />
+    <entry file="file://$PROJECT_DIR$/img/work_thumb_3.jpg" />
     <entry file="file://$PROJECT_DIR$/img/sec3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/main_vr.png">
+    <entry file="file://$PROJECT_DIR$/img/main_vr.png" />
+    <entry file="file://$PROJECT_DIR$/img/about_2020.png" />
+    <entry file="file://$PROJECT_DIR$/img/work_thumb_9.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/work_thumb_23.jpg" />
+    <entry file="file://$PROJECT_DIR$/workdetail_sf9.html" />
+    <entry file="file://$PROJECT_DIR$/img/1991_bi_white.png" />
+    <entry file="file://$PROJECT_DIR$/about.html" />
+    <entry file="file://$PROJECT_DIR$/about_new.html" />
+    <entry file="file://$PROJECT_DIR$/work_radio.html" />
+    <entry file="file://$PROJECT_DIR$/img/about.gif" />
+    <entry file="file://$PROJECT_DIR$/img/about_2016.png" />
+    <entry file="file://$PROJECT_DIR$/img/about_2015.png" />
+    <entry file="file://$PROJECT_DIR$/img/farm_3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/main_mamamoo.jpg">
+    <entry file="file://$PROJECT_DIR$/img/main_sf9_m.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/main_sec4_m.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/main_mamamoo_title.png" />
+    <entry file="file://$PROJECT_DIR$/img/main_mamamoo_m.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/login_titel.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/about_2020.png">
+    <entry file="file://$PROJECT_DIR$/img/main_mamamoo.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/food-drink-10.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/favicon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/work_thumb_9.jpg">
+    <entry file="file://$PROJECT_DIR$/img/food-drink-3.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/black_bg.gif" />
+    <entry file="file://$PROJECT_DIR$/img/check_on.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/work_thumb_23.jpg">
+    <entry file="file://$PROJECT_DIR$/img/contact_title.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/workdetail_sf9.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/black_bg.gif">
+    <entry file="file://$PROJECT_DIR$/img/black_bgimg.jpeg" />
+    <entry file="file://$PROJECT_DIR$/img/alion_bi.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/1991_bi_white.png">
+    <entry file="file://$PROJECT_DIR$/img/id_abata.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="93" column="60" lean-forward="true" selection-start-line="93" selection-start-column="60" selection-end-line="93" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about_new.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="40" column="69" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gnb_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gnb_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gnb_3_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work_radio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="234" column="24" selection-start-line="234" selection-start-column="24" selection-end-line="234" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gnb_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -852,15 +869,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="144">
+          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gnb_1_old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="159" column="37" selection-start-line="159" selection-start-column="36" selection-end-line="159" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178">
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gnb_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gnb_2_old.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gnb_1_detail_select.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="125" selection-start-line="125" selection-end-line="135" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gnb_3_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="128" column="11" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gnb_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="133" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gnb_1_detail_all.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="117" column="10" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gnb_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="143" column="10" lean-forward="true" selection-start-line="143" selection-start-column="10" selection-end-line="143" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="2247" lean-forward="true" selection-start-line="2247" selection-end-line="2247" />
+        <state relative-caret-position="151">
+          <caret line="1629" lean-forward="true" selection-start-line="1629" selection-end-line="1629" />
         </state>
       </provider>
     </entry>

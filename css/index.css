@@ -992,7 +992,6 @@ nav {
 
 .bi {
     float: left;
-    margin-left: 10%;
     margin-top: 15px;
 }
 
@@ -1010,7 +1009,7 @@ nav {
     line-height: 70px;
     vertical-align: middle;
     text-align: center;
-    font-size: 13pt;
+    font-size: 12pt;
     font-weight: 500;
 }
 
@@ -1018,7 +1017,6 @@ nav {
 .menutitle {
     height: 70px;
     float: right;
-    margin-right: 10%;
     color: #111111;
 }
 
@@ -1214,10 +1212,40 @@ nav {
     overflow: hidden;
 }
 
-.tab_1_right {
+.tab_1_relative {
+    display: block;
+    position: relative;
+}
+
+.tab_1_absolute {
     display: block;
     position: absolute;
-    right: 10%;
+    width: fit-content;
+    right: 0;
+    top: 0;
+}
+
+.tab_2_relative {
+    display: block;
+    position: relative;
+    height: 35px;
+    background: #d03543;
+    overflow: hidden;
+}
+
+.tab_2_absolute {
+    display: block;
+    position: absolute;
+    width: fit-content;
+    right: 0;
+    top: 0;
+    background: #1e4ba4;
+    overflow: hidden;
+}
+
+.tab_1_right_gnb_1 {
+    display: block;
+    margin-left: 300px;
     overflow: hidden;
 }
 
@@ -1234,8 +1262,7 @@ nav {
 
 .tab_2_right {
     display: block;
-    position: absolute;
-    right: 10%;
+    margin-left: 595px;
     overflow: hidden;
 }
 
@@ -1252,11 +1279,21 @@ nav {
 
 .tab_3_right {
     display: block;
-    position: absolute;
-    right: 10%;
+    margin-left: 872px;
     overflow: hidden;
 }
 
+
+.btngroup-right {
+    margin-left: 802px;
+}
+
+.btngroup-right_gnb_1_detail {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
 input {
     box-shadow: none;
@@ -1269,6 +1306,19 @@ select {
     text-decoration: none;
     border: #cccccc solid 1px;
 }
+
+.farm_item select {
+    display: inline-block;
+    position: relative;
+    height: 35px;
+    width: 280px;
+    line-height: 35px;
+    font-size: 10pt;
+    font-weight: 400;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
 
 .farm_year select {
     display: inline-block;
@@ -1286,7 +1336,7 @@ select {
     display: inline-block;
     position: relative;
     height: 35px;
-    width: 250px;
+    width: 180px;
     line-height: 35px;
     font-size: 10pt;
     font-weight: 400;
@@ -1315,7 +1365,7 @@ select {
 .gray_btn input {
     display: inline-block;
     position: relative;
-    width: 150px;
+    width: 140px;
     height: 35px;
     line-height: 35px;
     background: #898989;
@@ -1343,6 +1393,55 @@ select {
     border: none;
 }
 
+.black_btn input {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    background: black;
+    color: white;
+    line-height: 35px;
+    font-size: 10pt;
+    font-weight: 400;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.gray_btn_2 input {
+    display: inline-block;
+    position: relative;
+    width: 160px;
+    height: 35px;
+    line-height: 35px;
+    background: #898989;
+    color: white;
+    font-size: 10pt;
+    font-weight: 400;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.navy_btn_2 input {
+    display: inline-block;
+    position: relative;
+    width: 160px;
+    height: 35px;
+    line-height: 35px;
+    background: #2F2D75;
+    color: white;
+    line-height: 35px;
+    font-size: 10pt;
+    font-weight: 400;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+
 .content_title {
     display: block;
     position: relative;
@@ -1358,8 +1457,83 @@ select {
     min-height: 550px;
     height: fit-content;
     margin-top: 10px;
-    margin-bottom: 100px;
-    padding: 20px 20px 80px 20px;
+    margin-bottom: 80px;
+    padding: 20px;
+    font-size: 10pt;
+    font-weight: 400;
+}
+
+.content_area_detail_1 {
+    display: inline-block;
+    position: relative;
+    width: 350px;
+    height: 700px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    font-size: 10pt;
+    font-weight: 400;
+}
+
+.content_area_detail_2 {
+    display: inline-block;
+    position: relative;
+    width: 800px;
+    height: 700px;
+    margin-left: 45px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    font-size: 10pt;
+    font-weight: 400;
+}
+
+.detail_2_table {
+    display: block;
+    position: absolute;
+    width: 800px;
+    height: 140px;
+    top: 0;
+    background: #cccccc;
+}
+
+.detabil_2_chart {
+    display: block;
+    position: absolute;
+    width: 720px;
+    height: 480px;
+    top: 180px;
+    left: 40px;
+    background: #cccccc;
+}
+
+.content_area_2_1 {
+    display: block;
+    position: relative;
+    height: 400px;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 10pt;
+    font-weight: 400;
+}
+
+.content_area_2_2 {
+    display: block;
+    position: relative;
+    height: 230px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding: 20px;
+    font-size: 10pt;
+    font-weight: 400;
+}
+
+.content_area_3 {
+    display: block;
+    position: relative;
+    min-height: 700px;
+    height: fit-content;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    padding: 20px;
     font-size: 10pt;
     font-weight: 400;
 }
@@ -1390,6 +1564,10 @@ select {
 
 
 /*gnb_3 css : 성적 분석 메뉴*/
+
+.overflow-x {
+    overflow-x: hidden;
+}
 
 .grade_area {
     display: block;
@@ -1454,82 +1632,10 @@ select {
     display: block;
     position: relative;
     top: 20px;
-    left: 874px;
+    left: 910px;
 }
 
 
-
-
-
-
-
-
-
-
-/*about_ful css*/
-
-.tab_content_full {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 500px;
-    background: #3a6ac2;
-    text-align: center;
-}
-
-.tab_content_full input[type="radio"] {
-    display: none
-}
-.tab_content_full input[type="radio"] + label {
-    display: block;
-    width: 200px;
-    background: red;
-    color: #999;
-    font-size: 18px;
-    cursor: pointer;
-    font-weight: 600;
-    text-align: left;
-    margin-top: 80px;
-    margin-left: 60px;
-}
-
-.tab_content_full input[type="radio"]:checked +label {
-    background: blue;
-    color: #ffffff;
-}
-
-.tab_content_full input[id="about_tab01_full"]:checked ~ .ton1 {
-    display: block;
-    position: absolute;
-    left: 300px;
-    top: 0;
-}
-
-.tab_content_full input[id="about_tab02_full"]:checked ~ .ton2 {
-    display: block;
-    position: absolute;
-    left: 300px;
-    top: 0;}
-
-.tab_content_full input[id="about_tab03_full"]:checked ~ .ton3 {
-    display: block;
-    position: absolute;
-    left: 300px;
-    top: 0;}
-
-.tab_content_full input[id="about_tab04_full"]:checked ~ .ton4 {
-    display: block;
-    position: absolute;
-    left: 300px;
-    top: 0;}
-
-.conbox_about_full {
-    width: 100%;
-    height: fit-content;
-    background: slateblue;
-    display: none;
-    text-align: left;
-}
 
 /* about css */
 .about_sec1 {

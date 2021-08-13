@@ -42,32 +42,34 @@
         <link rel="stylesheet" href="css/index.css"/>
 
     </head>
-<body>
-
+<body class="overflow-x">
 
 <div id="topmenu" class="nav">
-    <div class="bi">
-        <a href="index.html">
-            <img src="./img/alion_bi.png" alt="bi_img" height="42px"/>
-        </a>
-    </div>
-    <div class="menutitle">
-        <ul>
-            <li><a href="gnb_1.html">생산성 예측</a></li>
-            <li><a class="ml30" href="gnb_2.html">지표 비교</a></li>
-            <li><a class="ml30" href="gnb_3.html">성적 분석</a></li>
-            <li><span class="fs14 ml50"><a href="#">정보수정</a> &emsp;|&emsp; <a href="login.html"
-                                                                                         onclick="alert('정상적으로 로그아웃 되었습니다.')">로그아웃</a></span>
-            </li>
-        </ul>
+    <div class="w1200">
+        <div class="bi">
+            <a href="index.html">
+                <img alt="bi_img" height="42px" src="./img/alion_bi.png"/>
+            </a>
+        </div>
+        <div class="menutitle">
+            <ul>
+                <li><a href="gnb_1.html">생산성 예측</a></li>
+                <li><a class="ml30" href="gnb_2.html">지표 비교</a></li>
+                <li><a class="ml30" href="gnb_3.html">성적 분석</a></li>
+                <li><span class="fs14 ml50"><a href="#">정보수정</a> &emsp;|&emsp; <a href="login.html"
+                                                                                  onclick="alert('정상적으로 로그아웃 되었습니다.')">로그아웃</a></span>
+                </li>
+            </ul>
+        </div>
     </div>
     <div class="nav_under_ab"></div>
 </div>
 
 <div class="tab_1">
-    <div class="tab_1_right">
-    <span class="fs15 fc_black fw400 mr10">연도</span>
-  <span class="farm_year">
+    <div class="w1200">
+        <div class="tab_1_right">
+            <span class="fs15 fc_black fw400 mr10">연도</span>
+            <span class="farm_year">
   <select name="year">
     <option value="2000" selected="selected">2000</option>
     <option value="2001">2001</option>
@@ -93,7 +95,7 @@
   </select>
     </span>
 
-    <span class="ml50">
+            <span class="ml30">
         <span class="mr10 fs15 fw400 fc_black">농장명</span>
     <span class="farm_name">
         <input type="text" value="아우라농장" readonly>
@@ -102,6 +104,7 @@
       <input type="button" value="농장검색">
     </span>
     </span>
+        </div>
     </div>
     <div class="nav_under_ab"></div>
 </div>
@@ -140,7 +143,7 @@
     </div>
     <div class="gradetab_right">
     <span class="gray_btn">
-        <input type="button" value="초기화">
+        <input onclick="alert('데이터값이 모두 초기화 되었습니다.')" type="button" value="초기화">
     </span>
         <span class="ml5 navy_btn">
         <input type="button" value="적용" onclick="location.href='gnb_3_detail.html'">
@@ -149,8 +152,7 @@
     <div class="nav_top_ab"></div>
     </div>
 </section>
-
-
+<div class="mb80"></div>
 
 </body>
 </head></html>
