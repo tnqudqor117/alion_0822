@@ -1229,7 +1229,6 @@ nav {
     display: block;
     position: relative;
     height: 35px;
-    background: #d03543;
     overflow: hidden;
 }
 
@@ -1239,7 +1238,6 @@ nav {
     width: fit-content;
     right: 0;
     top: 0;
-    background: #1e4ba4;
     overflow: hidden;
 }
 
