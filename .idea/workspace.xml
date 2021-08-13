@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33e6b9c2-7b5e-410a-b75c-f26453e7548a" name="Default Changelist" comment="alion - push">
-      <change afterPath="$PROJECT_DIR$/gnb_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gnb_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gnb_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gnb_3_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about_full.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fullpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fullpage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_cello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_corziver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_dominant.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_eos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_flac.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_hini.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_jsh.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_lotte.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_mamamoo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_mgigs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_onf.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_sang.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_smc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_tn.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_town.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_view.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_who.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_yanolja.html" beforeDir="false" />
-    </list>
+    <list default="true" id="33e6b9c2-7b5e-410a-b75c-f26453e7548a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -43,10 +14,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gnb_3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2010">
-              <caret line="134" column="106" selection-start-line="134" selection-start-column="106" selection-end-line="134" selection-end-column="106" />
+            <state relative-caret-position="131">
+              <caret line="98" column="49" lean-forward="true" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -54,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gnb_3_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1650">
-              <caret line="110" column="23" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
+            <state relative-caret-position="330">
+              <caret line="150" selection-start-line="150" selection-end-line="150" />
             </state>
           </provider>
         </entry>
@@ -63,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="150">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -78,20 +58,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gnb_1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="140" column="88" selection-start-line="140" selection-start-column="88" selection-end-line="140" selection-end-column="88" />
+            <state relative-caret-position="150">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gnb_2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            <state relative-caret-position="221">
+              <caret line="138" column="92" selection-start-line="138" selection-start-column="92" selection-end-line="138" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -170,13 +150,13 @@
         <option value="$PROJECT_DIR$/workdetail_who.html" />
         <option value="$PROJECT_DIR$/workdetail_yanolja.html" />
         <option value="$PROJECT_DIR$/css/fullpage.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/gnb_3.html" />
-        <option value="$PROJECT_DIR$/gnb_3_detail.html" />
-        <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
-        <option value="$PROJECT_DIR$/gnb_1.html" />
         <option value="$PROJECT_DIR$/gnb_2.html" />
+        <option value="$PROJECT_DIR$/gnb_3_detail.html" />
+        <option value="$PROJECT_DIR$/gnb_3.html" />
+        <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/gnb_1.html" />
       </list>
     </option>
   </component>
@@ -201,6 +181,11 @@
               <item name="alion" type="b2602c69:ProjectViewProjectNode" />
               <item name="alion" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alion" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -278,14 +263,7 @@
       <workItem from="1628524438854" duration="964000" />
       <workItem from="1628685160601" duration="20198000" />
       <workItem from="1628742514250" duration="21253000" />
-      <workItem from="1628841720794" duration="912000" />
-    </task>
-    <task id="LOCAL-00014" summary="footer 리뉴얼 &amp; 메인화면 이미지 교체 _ 0612 컨택페이지 완료">
-      <created>1623488101623</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1623488101623</updated>
+      <workItem from="1628841720794" duration="1525000" />
     </task>
     <task id="LOCAL-00015" summary="about 페이지 커리어 영억 복구 완료 _ 0613 about 완료">
       <created>1623518768066</created>
@@ -623,11 +601,18 @@
       <option name="project" value="LOCAL" />
       <updated>1628469399820</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="alion - push">
+      <created>1628843062692</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1628843062693</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="291600000" />
+    <option name="totallyTimeSpent" value="292213000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -640,9 +625,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09090909" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09090909" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -656,7 +640,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.26987952" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4982382" weight="0.37108433" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5017618" side_tool="true" weight="0.37108433" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -789,13 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="53" column="52" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work_radio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -813,27 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gnb_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2010">
-          <caret line="134" column="106" selection-start-line="134" selection-start-column="106" selection-end-line="134" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gnb_3_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="110" column="23" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about_full.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -848,17 +804,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gnb_1.html">
+    <entry file="file://$PROJECT_DIR$/gnb_3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="140" column="88" selection-start-line="140" selection-start-column="88" selection-end-line="140" selection-end-column="88" />
+        <state relative-caret-position="131">
+          <caret line="98" column="49" lean-forward="true" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gnb_2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        <state relative-caret-position="221">
+          <caret line="138" column="92" selection-start-line="138" selection-start-column="92" selection-end-line="138" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gnb_3_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gnb_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
         </state>
       </provider>
     </entry>
