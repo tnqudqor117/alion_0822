@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33e6b9c2-7b5e-410a-b75c-f26453e7548a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about_new.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gnb_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/gnb_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gnb_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/gnb_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gnb_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/gnb_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gnb_3_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/gnb_3_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/1991_bi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/1991_bi_black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/1991_bi_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/3d-white.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Logo_Type_comp_R03.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work_2d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work_3d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work_all.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work_thumb_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work_thumb_2.5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work_thumb_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work_thumb_21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work_thumb_22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work_thumb_23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work_thumb_3.5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work_thumb_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work_thumb_4.5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work_thumb_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work_thumb_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work_thumb_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work_thumb_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work_thumb_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/work_thumb_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_radio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workdetail_sf9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,11 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="185">
               <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="2247" lean-forward="true" selection-start-line="2247" selection-end-line="2247" />
             </state>
           </provider>
         </entry>
@@ -190,13 +166,13 @@
         <option value="$PROJECT_DIR$/workdetail_who.html" />
         <option value="$PROJECT_DIR$/workdetail_yanolja.html" />
         <option value="$PROJECT_DIR$/css/fullpage.css" />
-        <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/gnb_1.html" />
         <option value="$PROJECT_DIR$/gnb_2.html" />
         <option value="$PROJECT_DIR$/gnb_3.html" />
         <option value="$PROJECT_DIR$/gnb_3_detail.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
       </list>
     </option>
   </component>
@@ -217,6 +193,11 @@
             <path>
               <item name="alion" type="b2602c69:ProjectViewProjectNode" />
               <item name="alion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alion" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="alion" type="b2602c69:ProjectViewProjectNode" />
@@ -299,14 +280,7 @@
       <workItem from="1628685160601" duration="20198000" />
       <workItem from="1628742514250" duration="21253000" />
       <workItem from="1628841720794" duration="3326000" />
-      <workItem from="1628848294649" duration="240000" />
-    </task>
-    <task id="LOCAL-00016" summary="about 페이지 w1200 수정 _ 0613">
-      <created>1623519074783</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1623519074783</updated>
+      <workItem from="1628848294649" duration="483000" />
     </task>
     <task id="LOCAL-00017" summary="work 페이지 딤처리 효과 구현 완료 _ 0614">
       <created>1623596879494</created>
@@ -644,11 +618,18 @@
       <option name="project" value="LOCAL" />
       <updated>1628843511976</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="alion">
+      <created>1628848629630</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1628848629630</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="294254000" />
+    <option name="totallyTimeSpent" value="294497000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -663,7 +644,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22269204" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14728682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -687,7 +668,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="footer_main 변경" />
     <MESSAGE value="0712&#10;main 이미지 수정&#10;work 썸네일 및 팝업 수정" />
     <MESSAGE value="main 화면 sns 링크 추가" />
     <MESSAGE value="0715 수정사항 1차 완료 워크디테일 순서 정리 완료" />
@@ -712,7 +692,8 @@
     <MESSAGE value="0809&#10;&#10;이미지 추가" />
     <MESSAGE value="alion - push" />
     <MESSAGE value="alion - img add" />
-    <option name="LAST_COMMIT_MESSAGE" value="alion - img add" />
+    <MESSAGE value="alion" />
+    <option name="LAST_COMMIT_MESSAGE" value="alion" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.css" />
@@ -745,13 +726,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about_full.html" />
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="1301" column="17" selection-start-line="1301" selection-start-column="17" selection-end-line="1301" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/food-drink-3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -880,6 +854,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="2247" lean-forward="true" selection-start-line="2247" selection-end-line="2247" />
         </state>
       </provider>
     </entry>
