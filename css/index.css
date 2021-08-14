@@ -22,9 +22,9 @@ body, form, div, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, fieldset, th
     overflow: auto
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
+/*::-webkit-scrollbar {*/
+/*    display: none;*/
+/*}*/
 
 a {
     text-decoration: none
@@ -1613,6 +1613,24 @@ select {
     margin-bottom: 80px;
     font-size: 10pt;
     font-weight: 400;
+    overflow: hidden;
+}
+
+.detail_1_table {
+    display: block;
+    position: absolute;
+    width: 350px;
+    height: 560px;
+    top: 0;
+    left: 0;
+}
+
+.detail_1_paging {
+    display: block;
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    bottom: 0;
 }
 
 .content_area_detail_2 {
@@ -1805,3 +1823,25 @@ select {
 }
 
 
+.paging {
+    position: absolute;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.paging a {
+    display: inline-block;
+    margin: 0 2px;
+    padding: 1px 5px 2px;
+    color: #858585;
+    vertical-align: middle;
+}
+
+.paging a.on {
+    display: inline-block;
+    background: #858585;
+    color: white;
+    font-weight: bold;
+}
