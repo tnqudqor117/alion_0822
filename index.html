@@ -53,14 +53,69 @@
                 <li><a href="gnb_1.html">생산성 예측</a></li>
                 <li><a class="ml30" href="gnb_2.html">지표 비교</a></li>
                 <li><a class="ml30" href="gnb_3.html">성적 분석</a></li>
-                <li><span class="fs14 ml50"><a href="#">정보수정</a> &emsp;|&emsp; <a href="login.html" onclick="alert('정상적으로 로그아웃 되었습니다.')">로그아웃</a></span></li>
+                <li><span class="fs14 ml50"><a href="#pop1">정보수정</a> &emsp;|&emsp; <a href="login.html"
+                                                                                      onclick="alert('정상적으로 로그아웃 되었습니다.')">로그아웃</a></span>
+                </li>
             </ul>
         </div>
     </div>
     <div class="nav_under"></div>
 </nav>
 
-    <div id="full-page">
+
+<!--<================= 개인정보 수정 팝업 소스 시작. ===================>-->
+
+<div class="popup" id="pop1">
+    <div class="popup_top">
+        <div class="mt15 tc fs15 fw600 fc_white">
+            정보수정
+            <a href="#a">닫기</a>
+        </div>
+    </div>
+    <div class="mt65 ml10">
+        <div class="edit_input fs14 fw400">
+            &nbsp;아이디<br/>
+            <input class="mt5 edit_id_bg" readonly type="text" value="로그인한 아이디 데이터">
+        </div>
+
+        <div class="edit_input mt20 fs14 fw400">
+            &nbsp;기존 비밀번호<br/>
+            <input placeholder="기존 비밀번호를 입력해주세요." type="text">
+        </div>
+
+        <div class="edit_input mt20 fs14 fw400">
+            &nbsp;새 비밀번호<br/>
+            <input placeholder="새로운 비밀번호를 입력해주세요." type="text">
+        </div>
+
+        <div class="edit_input mt20 fs14 fw400">
+            &nbsp;이름<br/>
+            <input placeholder="이름을 입력해주세요." type="text">
+        </div>
+
+        <div class="edit_input mt20 fs14 fw400">
+            &nbsp;핸드폰 번호<br/>
+            <input placeholder="'-'를 제외한 숫자만 입력해주세요." type="text">
+        </div>
+    </div>
+    <div class="mt40 ml15">
+        <span class="gray_btn_2">
+        <input onclick="location.href='#'" type="button" value="취소">
+    </span>
+        <span class="ml10 navy_btn_2">
+        <input onclick="location.href='#result';alert('개인정보가 수정되었습니다.')" type="button" value="수정">
+    </span>
+    </div>
+</div>
+
+<div class="dim"></div>
+
+<!--<================= 개인정보 수정 팝업 소스 끝. ===================>-->
+
+
+<div class="dim"></div>
+
+<div id="full-page">
         <section class="section s0">
             <div class="w1100">
                 <div class="fc_black fw600 fs30 mt50 ml50">
@@ -74,7 +129,7 @@
                 기반으로 AI솔루션을 활용하여, 다음 산차 총산 수치를 예측함으로써,<br />
                 양돈 농가 모돈 관리의 의사 결정을 지원합니다.
             </div>
-            <div class="mt60 ml80">
+                <div class="mt60 ml80 wow animate__fadeInUp">
             <div class="fs20 fw600 tc fl">
                 <img src="./img/pig_1.png" alt="pig1">
                 <br /><br />
@@ -109,16 +164,20 @@
                     생산성 향상에 영향을 미치는 각 지표 간의 상관관계를 분석함으로써,<br />
                     양돈 농가의 생산관리의 방향성을 제시합니다.
                 </div>
-                <div class="mt50 ml80">
+                <div class="mt50 ml80 wow animate__fadeInUp">
                 <div class="s1_box fc_black fs15 tc">
                     제공 분석 지표
                 </div>
                 <div class="s1_box2">
-                    <div class="fc_black fs15 mt35 ml100">
+                    <div class="fc_black fs15 mt30 ml100">
                         1. PSY에 대한 <b>포유기간의 영향력</b> 분석<br />
+                        <br/>
                         2. 총산자수에 대한 <b>초교배일령의 영향력</b> 분석<br />
+                        <br/>
                         3. <b>발정재귀일</b>에 대한 포유기간의 영향력 분석<br />
+                        <br/>
                         4. <b>총산자수</b>에 대한 포유기간의 영향력 분석<br />
+                        <br/>
                         5. 총산자수에 대한 <b>분만율의 영향력</b> 분석
                     </div>
                     </div>
@@ -140,7 +199,7 @@
                     기반으로  내 농가의 현 위치와 상/하위 성적 농가의 차이를 시각화하여 제시함으로써,<br />
                     양돈 농가 경영 컨설팅의 기반을 제시합니다.
                 </div>
-                <div class="mt60 ml80">
+                <div class="mt60 ml80 wow animate__fadeInUp">
                     <div class="fs20 fw600 tc fl">
                         <img src="./img/farm_1.png" alt="farm1">
                         <br /><br />

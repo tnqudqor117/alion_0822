@@ -56,14 +56,66 @@
                 <li><a href="gnb_1.html">생산성 예측</a></li>
                 <li><a class="ml30" href="gnb_2.html">지표 비교</a></li>
                 <li><a class="ml30" href="gnb_3.html">성적 분석</a></li>
-                <li><span class="fs14 ml50"><a href="#">정보수정</a> &emsp;|&emsp; <a href="login.html"
-                                                                                  onclick="alert('정상적으로 로그아웃 되었습니다.')">로그아웃</a></span>
+                <li><span class="fs14 ml50"><a href="#pop1">정보수정</a> &emsp;|&emsp; <a href="login.html"
+                                                                                      onclick="alert('정상적으로 로그아웃 되었습니다.')">로그아웃</a></span>
                 </li>
             </ul>
         </div>
     </div>
     <div class="nav_under_ab"></div>
 </div>
+
+
+<!--<================= 개인정보 수정 팝업 소스 시작. ===================>-->
+
+<div class="popup" id="pop1">
+    <div class="popup_top">
+        <div class="mt15 tc fs15 fw600 fc_white">
+            정보수정
+            <a href="#a">닫기</a>
+        </div>
+    </div>
+    <div class="mt65 ml10">
+        <div class="edit_input fs14 fw400">
+            &nbsp;아이디<br/>
+            <input class="mt5 edit_id_bg" readonly type="text" value="로그인한 아이디 데이터">
+        </div>
+
+        <div class="edit_input mt20 fs14 fw400">
+            &nbsp;기존 비밀번호<br/>
+            <input placeholder="기존 비밀번호를 입력해주세요." type="text">
+        </div>
+
+        <div class="edit_input mt20 fs14 fw400">
+            &nbsp;새 비밀번호<br/>
+            <input placeholder="새로운 비밀번호를 입력해주세요." type="text">
+        </div>
+
+        <div class="edit_input mt20 fs14 fw400">
+            &nbsp;이름<br/>
+            <input placeholder="이름을 입력해주세요." type="text">
+        </div>
+
+        <div class="edit_input mt20 fs14 fw400">
+            &nbsp;핸드폰 번호<br/>
+            <input placeholder="'-'를 제외한 숫자만 입력해주세요." type="text">
+        </div>
+    </div>
+    <div class="mt40 ml15">
+        <span class="gray_btn_2">
+        <input onclick="location.href='#'" type="button" value="취소">
+    </span>
+        <span class="ml10 navy_btn_2">
+        <input onclick="location.href='#result';alert('개인정보가 수정되었습니다.')" type="button" value="수정">
+    </span>
+    </div>
+</div>
+
+<div class="dim"></div>
+
+<!--<================= 개인정보 수정 팝업 소스 끝. ===================>-->
+
+
 
 <div class="tab_1">
     <div class="w1200">

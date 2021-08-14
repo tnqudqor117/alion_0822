@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <head>
+        <meta content="text/html; charset=utf-8" http-equv="Content-Type">
+        <meta content="text/css" http-equiv="Content-Style-Type">
+        <title>생산성 예측</title>
+
+        <link href="favicon.ico type=" rel="shortcut icon">
+        <link href="favicon.ico type=" rel="icon">
+
+        <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+              integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+              rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script crossorigin="anonymous"
+                integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A=="
+                src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
+        <script src="js/wow.min.js"></script>
+        <script>
+            var wow = new WOW(
+                {
+                    boxClass: 'wow',      // animated element css class (default is wow)
+                    animateClass: 'animate__animated', // animation css class (default is animated)
+                    offset: 100,          // distance to the element when triggering the animation (default is 0)
+                    mobile: true,       // trigger animations on mobile devices (default is true)
+                    live: true,       // act on asynchronously loaded content (default is true)
+                    callback: function (box) {
+                        // the callback is fired every time an animation is started
+                        // the argument that is passed in is the DOM node being animated
+                    },
+                    scrollContainer: null,    // optional scroll container selector, otherwise use window,
+                    resetAnimation: true,     // reset animation on end (default is true)
+                }
+            );
+            wow.init();
+
+        </script>
+
+        <link href="css/index.css" rel="stylesheet"/>
+
+    </head>
+<body>
+
+<a href="#pop1">팝업열기</a>
+
+<div class="popup" id="pop1">
+    <div class="popup_top">
+        <div class="mt15 tc fs15 fw600 fc_white">
+            정보수정
+            <a href="#a">닫기</a>
+        </div>
+    </div>
+    <div class="mt65 ml10">
+        <div class="edit_input fs14 fw400">
+            &nbsp;아이디<br/>
+            <input class="mt5 edit_id_bg" readonly type="text" value="로그인한 아이디 데이터">
+    </div>
+
+        <div class="edit_input mt20 fs14 fw400">
+            &nbsp;기존 비밀번호<br/>
+            <input placeholder="기존 비밀번호를 입력해주세요." type="text">
+        </div>
+
+        <div class="edit_input mt20 fs14 fw400">
+            &nbsp;새 비밀번호<br/>
+            <input placeholder="새로운 비밀번호를 입력해주세요." type="text">
+    </div>
+
+        <div class="edit_input mt20 fs14 fw400">
+            &nbsp;이름<br/>
+            <input placeholder="이름을 입력해주세요." type="text">
+        </div>
+
+        <div class="edit_input mt20 fs14 fw400">
+            &nbsp;핸드폰 번호<br/>
+            <input placeholder="'-'를 제외한 숫자만 입력해주세요." type="text">
+    </div>
+    </div>
+    <div class="mt40 ml15">
+        <span class="gray_btn_2">
+        <input onclick="location.href='#'" type="button" value="취소">
+    </span>
+        <span class="ml10 navy_btn_2">
+        <input onclick="location.href='#result';alert('개인정보가 수정되었습니다.')" type="button" value="수정">
+    </span>
+    </div>
+</div>
+
+<div class="dim"></div>
+
+</body>
+</head></html>
