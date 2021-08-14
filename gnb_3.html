@@ -78,32 +78,32 @@
     <div class="mt65 ml10">
         <div class="edit_input fs14 fw400">
             &nbsp;아이디<br/>
-            <input class="mt5 edit_id_bg" readonly type="text" value="로그인한 아이디 데이터">
+            <input class="mt5 edit_id_bg" placeholder="아이디를 입력해주세요." readonly type="text" value="로그인한 아이디 데이터">
         </div>
 
         <div class="edit_input mt20 fs14 fw400">
             &nbsp;기존 비밀번호<br/>
-            <input placeholder="기존 비밀번호를 입력해주세요." type="text">
+            <input placeholder="기존 비밀번호를 입력해주세요." type="text" value="">
         </div>
 
         <div class="edit_input mt20 fs14 fw400">
             &nbsp;새 비밀번호<br/>
-            <input placeholder="새로운 비밀번호를 입력해주세요." type="text">
+            <input placeholder="새로운 비밀번호를 입력해주세요." type="text" value="">
         </div>
 
         <div class="edit_input mt20 fs14 fw400">
             &nbsp;이름<br/>
-            <input placeholder="이름을 입력해주세요." type="text">
+            <input placeholder="이름을 입력해주세요." type="text" value="">
         </div>
 
         <div class="edit_input mt20 fs14 fw400">
             &nbsp;핸드폰 번호<br/>
-            <input placeholder="'-'를 제외한 숫자만 입력해주세요." type="text">
+            <input placeholder="'-'를 제외한 숫자만 입력해주세요." type="text" value="">
         </div>
     </div>
     <div class="mt40 ml15">
         <span class="gray_btn_2">
-        <input onclick="location.href='#'" type="button" value="취소">
+        <input onclick="location.href='#'" type="button" value="취소" value="">
     </span>
         <span class="ml10 navy_btn_2">
         <input onclick="location.href='#result';alert('개인정보가 수정되었습니다.')" type="button" value="수정">
@@ -115,6 +115,189 @@
 
 <!--<================= 개인정보 수정 팝업 소스 끝. ===================>-->
 
+
+<!--<================= 농장검 수정 팝업 소스 시작. ===================>-->
+
+
+<div class="popup" id="pop2">
+    <div class="popup_top">
+        <div class="mt15 tc fs15 fw600 fc_white">
+            농장검색
+            <a href="#a">닫기</a>
+        </div>
+    </div>
+    <div class="mt50 ml10">
+        <div class="fc_navy tc fs12 f400">
+            *농장명 / 농장주 선택 입력 조회 가능
+        </div>
+
+        <div class="ml10">
+            <div class="farm_input fs14 fw400 mt30">
+                농장명<input class="ml20" placeholder="농장명을 입력하세요." type="text" value="">
+            </div>
+
+            <div class="farm_input mt20 fs14 fw400">
+                농장주<input class="ml20" placeholder="농장주를 입력하세요." type="text" value="">
+            </div>
+
+            <div class="mt20 fr mr20">
+            <span class="navy_btn">
+                <input type="button" value="검색">
+            </span>
+            </div>
+        </div>
+
+        <div class="mt20 t_head tc fs8">
+            <div class="t_head_num">
+                순번
+            </div>
+            <div class="t_head_farm">
+                농장명
+            </div>
+            <div class="t_head_master">
+                농장주
+            </div>
+            <div class="t_head_location">
+                위치
+            </div>
+        </div>
+        <div class="t_list fs8 tc">
+
+
+            <div class="row1">
+
+                <div class="t_head_num">
+                    1
+                </div>
+
+                <div class="t_head_farm">
+                    아우라농장
+                </div>
+
+                <div class="t_head_master">
+                    홍길동
+                </div>
+
+                <div class="t_head_location">
+                    전북 전주시
+                </div>
+            </div>
+
+            <div class="row2">
+
+                <div class="t_head_num">
+                    2
+                </div>
+
+                <div class="t_head_farm">
+                    아우라농장
+                </div>
+
+                <div class="t_head_master">
+                    홍길동
+                </div>
+
+                <div class="t_head_location">
+                    전북 전주시
+                </div>
+            </div>
+
+            <div class="row3">
+
+                <div class="t_head_num">
+                    3
+                </div>
+
+                <div class="t_head_farm">
+                    아우라농장
+                </div>
+
+                <div class="t_head_master">
+                    홍길동
+                </div>
+
+                <div class="t_head_location">
+                    전북 전주시
+                </div>
+            </div>
+
+            <div class="row4">
+
+                <div class="t_head_num">
+                    4
+                </div>
+
+                <div class="t_head_farm">
+                    아우라농장
+                </div>
+
+                <div class="t_head_master">
+                    홍길동
+                </div>
+
+                <div class="t_head_location">
+                    전북 전주시
+                </div>
+            </div>
+
+            <div class="row5">
+
+                <div class="t_head_num">
+                    5
+                </div>
+
+                <div class="t_head_farm">
+                    아우라농장
+                </div>
+
+                <div class="t_head_master">
+                    홍길동
+                </div>
+
+                <div class="t_head_location">
+                    전북 전주시
+                </div>
+            </div>
+
+            <div class="row6">
+
+                <div class="t_head_num">
+                    6
+                </div>
+
+                <div class="t_head_farm">
+                    아우라농장
+                </div>
+
+                <div class="t_head_master">
+                    홍길동
+                </div>
+
+                <div class="t_head_location">
+                    전북 전주시
+                </div>
+            </div>
+
+        </div>
+
+        <div class="farm_input mt20 fs14 fw400 mt20 ml10">
+            선택 농가<input class="ml10" type="text" value="선택 된 농가 노출">
+        </div>
+
+
+    </div>
+    <div class="mt20 ml15">
+        <span class="ml10 navy_btn_3">
+            <input onclick="location.href='#result'" type="button" value="선택 농가 적용">
+    </span>
+    </div>
+</div>
+
+<div class="dim"></div>
+색
+
+
+<!--<================= 농장검색 수정 팝업 소스 . ===================>-->
 
 
 <div class="tab_1">
@@ -153,7 +336,7 @@
         <input type="text" value="아우라농장" readonly>
     </span>
     <span class="farm_search">
-      <input type="button" value="농장검색">
+      <input onclick="location.href='#pop2'" type="button" value="농장검색">
     </span>
     </span>
         </div>

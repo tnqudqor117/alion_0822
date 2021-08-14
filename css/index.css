@@ -62,11 +62,11 @@ img {
 }
 
 hr {
-     display: block;
+    display: block;
     margin: 0;
     border: 1px solid #cccccc;
     z-index: 10005;
- }
+}
 
 table {
     border-collapse: collapse;
@@ -311,8 +311,10 @@ textarea:focus {
 }
 
 .w1200 {
-    width: 1200px; !important;
-    margin: 0 auto; !important;
+    width: 1200px;
+!important;
+    margin: 0 auto;
+!important;
 }
 
 .w1300 {
@@ -327,8 +329,10 @@ textarea:focus {
 }
 
 .w1100 {
-    width: 1100px; !important;
-    margin: 0 auto; !important;
+    width: 1100px;
+!important;
+    margin: 0 auto;
+!important;
 }
 
 
@@ -381,9 +385,11 @@ a.u:hover {
 .mt30 {
     margin-top: 30px
 }
+
 .mt35 {
     margin-top: 35px
 }
+
 .mt40 {
     margin-top: 40px
 }
@@ -464,7 +470,6 @@ a.u:hover {
 .mr300 {
     margin-right: 300px;
 }
-
 
 
 .ml0 {
@@ -677,7 +682,6 @@ a.u:hover {
 }
 
 
-
 .pt0 {
     padding-top: 0
 }
@@ -745,6 +749,10 @@ a.u:hover {
 /* width,height는 각각 지정 */
 
 /* font size */
+.fs8 {
+    font-size: 8px !important
+}
+
 .fs10 {
     font-size: 10px !important
 }
@@ -812,6 +820,7 @@ a.u:hover {
 .fs30 {
     font-size: 30px !important
 }
+
 .fs35 {
     font-size: 35px !important
 }
@@ -905,7 +914,7 @@ a.u:hover {
 /* align */
 .flo_r {
     float: right;
- }
+}
 
 .flo_l {
     float: left;
@@ -956,10 +965,7 @@ a.u:hover {
 }
 
 
-
 /*=============================>> 여기서 부터 진짜 css 시작 / 위는 공통 제어 부분 <<===================================*/
-
-
 
 
 /* nav 영역 = Gnb 영역 */
@@ -978,11 +984,11 @@ nav {
 }
 
 .nav_under {
-     width: 100%;
-     height: 1px;
-     background: #dbdbdb;
-     bottom: 0;
- }
+    width: 100%;
+    height: 1px;
+    background: #dbdbdb;
+    bottom: 0;
+}
 
 .nav_under_ab {
     display: block;
@@ -1044,7 +1050,6 @@ nav {
 .popup {
     position: fixed;
     z-index: 5;
-!important;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -1087,6 +1092,60 @@ nav {
     border-radius: 5px;
 }
 
+.farm_input input {
+    font-size: 10pt;
+    font-weight: 400;
+    width: 260px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.t_head {
+    width: 350px;
+    height: 30px;
+    line-height: 30px;
+    background: lightgrey;
+    overflow: hidden;
+    border: 1px solid #cccccc;
+}
+
+.t_head_num {
+    display: inline-block;
+    line-height: 30px;
+    width: 42px;
+    height: 30px;
+}
+
+.t_head_farm {
+    display: inline-block;
+    line-height: 30px;
+    width: 125px;
+    height: 30px;
+}
+
+.t_head_master {
+    display: inline-block;
+    line-height: 30px;
+    width: 65px;
+    height: 30px;
+}
+
+.t_head_location {
+    display: inline-block;
+    line-height: 30px;
+    width: 105px;
+    height: 30px;
+}
+
+.t_list {
+    width: 350px;
+    height: 120px;
+    background: white;
+    border: 1px solid #cccccc;
+}
+
 .edit_id_bg {
     background: #efefef;
 }
@@ -1113,13 +1172,15 @@ nav {
 }
 
 
-
-
-
-
 /* main css 영역 */
 
-#topButton {position: fixed; right: 3%; bottom: 50px; display: none; z-index: 999;}
+#topButton {
+    position: fixed;
+    right: 3%;
+    bottom: 50px;
+    display: none;
+    z-index: 999;
+}
 
 
 #fp-nav ul li a span {
@@ -1228,24 +1289,25 @@ nav {
 }
 
 .ccheck input[type="checkbox"] {
-    display:none;
+    display: none;
 }
 
-.ccheck label{
+.ccheck label {
     font-size: 15px;
     color: #111111;
     font-weight: 400;
 }
 
 .ccheck input[type="checkbox"] + label .chk_img {
-    padding:0 0 0 30px;
-    height:30px;
-    background:url("../img/check_off.png")no-repeat;
-    cursor:pointer;
+    padding: 0 0 0 30px;
+    height: 30px;
+    background: url("../img/check_off.png") no-repeat;
+    cursor: pointer;
     transition: all 0.3s;
 }
+
 .ccheck input[type="checkbox"]:checked + label .chk_img {
-    background:url("../img/check_on.png")no-repeat;
+    background: url("../img/check_on.png") no-repeat;
     transition: all 0.3s;
 }
 
@@ -1281,10 +1343,9 @@ nav {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 850px;
 }
-
 
 
 /*gnb_1 css : 생산성 예측*/
@@ -1293,7 +1354,7 @@ nav {
     display: block;
     position: relative;
     width: 100%;
-    height:60px;
+    height: 60px;
     background: white;
     padding-top: 11px;
     top: 70px;
@@ -1339,7 +1400,7 @@ nav {
     display: block;
     position: relative;
     width: 100%;
-    height:60px;
+    height: 60px;
     background: #F4F4F4;
     line-height: 60px;
     top: 70px;
@@ -1356,30 +1417,22 @@ nav {
     display: block;
     position: fixed;
     width: 100%;
-    height:70px;
+    height: 70px;
     background: white;
-    line-height: 70px;
+    padding-top: 18px;
     bottom: 0;
     overflow: hidden;
 }
 
-.tab_3_right {
-    display: block;
-    margin-left: 872px;
-    overflow: hidden;
-    margin-top: 18px;
-}
 
-.btngroup-right {
-    margin-left: 802px;
-}
-
-.btngroup-right_gnb_1_detail {
+.tab_3_1200 {
     display: block;
     position: absolute;
-    top: 0;
-    right: 0;
+    width: 1200px;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
+
 
 input {
     box-shadow: none;
@@ -1398,7 +1451,6 @@ select {
     position: relative;
     height: 35px;
     width: 280px;
-    line-height: 35px;
     font-size: 10pt;
     font-weight: 400;
     border-radius: 5px;
@@ -1411,7 +1463,6 @@ select {
     position: relative;
     height: 35px;
     width: 110px;
-    line-height: 35px;
     font-size: 10pt;
     font-weight: 400;
     border-radius: 5px;
@@ -1423,13 +1474,12 @@ select {
     position: relative;
     height: 35px;
     width: 180px;
-    line-height: 35px;
     font-size: 10pt;
     font-weight: 400;
     padding: 10px;
     margin-bottom: 5px;
     border-radius: 5px;
-    background: #EFEFEF;
+    background: #efefef;
 }
 
 .farm_search input {
@@ -1439,7 +1489,6 @@ select {
     height: 35px;
     background: #2F2D75;
     color: white;
-    line-height: 35px;
     font-size: 10pt;
     font-weight: 400;
     margin-bottom: 5px;
@@ -1453,7 +1502,6 @@ select {
     position: relative;
     width: 140px;
     height: 35px;
-    line-height: 35px;
     background: #898989;
     color: white;
     font-size: 10pt;
@@ -1468,10 +1516,36 @@ select {
     position: relative;
     width: 140px;
     height: 35px;
-    line-height: 35px;
     background: #2F2D75;
     color: white;
-    line-height: 35px;
+    font-size: 10pt;
+    font-weight: 400;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.navy_btn_2 input {
+    display: inline-block;
+    position: relative;
+    width: 160px;
+    height: 35px;
+    background: #2F2D75;
+    color: white;
+    font-size: 10pt;
+    font-weight: 400;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.navy_btn_3 input {
+    display: inline-block;
+    position: relative;
+    width: 320px;
+    height: 40px;
+    background: #2F2D75;
+    color: white;
     font-size: 10pt;
     font-weight: 400;
     margin-bottom: 5px;
@@ -1487,7 +1561,6 @@ select {
     line-height: 35px;
     background: black;
     color: white;
-    line-height: 35px;
     font-size: 10pt;
     font-weight: 400;
     margin-bottom: 5px;
@@ -1500,7 +1573,6 @@ select {
     position: relative;
     width: 160px;
     height: 35px;
-    line-height: 35px;
     background: #898989;
     color: white;
     font-size: 10pt;
@@ -1510,22 +1582,6 @@ select {
     border: none;
 }
 
-
-.navy_btn_2 input {
-    display: inline-block;
-    position: relative;
-    width: 160px;
-    height: 35px;
-    line-height: 35px;
-    background: #2F2D75;
-    color: white;
-    line-height: 35px;
-    font-size: 10pt;
-    font-weight: 400;
-    margin-bottom: 5px;
-    border-radius: 5px;
-    border: none;
-}
 
 
 .content_title {
@@ -1648,8 +1704,8 @@ select {
 
 
 .area_bg {
-     background: #F4F4F4;
- }
+    background: #F4F4F4;
+}
 
 .area_bg_white {
     background: #ffffff;
@@ -1668,7 +1724,7 @@ select {
     display: block;
     position: fixed;
     width: 100%;
-    height:70px;
+    height: 70px;
     background: white;
     line-height: 70px;
     bottom: 0;
