@@ -1361,6 +1361,7 @@ nav {
     background: white;
     top: 70px;
     overflow: hidden;
+    padding-top: 11px;
 }
 
 .tab_1_relative {
