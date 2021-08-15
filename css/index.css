@@ -1048,6 +1048,7 @@ nav {
 /*레이어팝업 css*/
 
 .popup {
+    display: none;
     position: fixed;
     z-index: 5;
     left: 50%;
@@ -1081,6 +1082,30 @@ nav {
     top: 15px;
     right: 30px;
 }
+
+
+.popup:target {
+    display: block;
+    opacity: 1;
+}
+
+.popup:target + .dim {
+    opacity: 1;
+    z-index: 2;
+}
+
+
+.dim {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+}
+
 
 .edit_input input {
     font-size: 10pt;
@@ -1149,28 +1174,6 @@ nav {
 .edit_id_bg {
     background: #efefef;
 }
-
-.popup:target {
-    opacity: 1;
-}
-
-.popup:target + .dim {
-    opacity: 1;
-    z-index: 2;
-}
-
-
-.dim {
-    position: fixed;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(0, 0, 0, 0.6);
-    opacity: 0;
-}
-
 
 /* main css 영역 */
 
@@ -1356,7 +1359,6 @@ nav {
     width: 100%;
     height: 60px;
     background: white;
-    padding-top: 11px;
     top: 70px;
     overflow: hidden;
 }
