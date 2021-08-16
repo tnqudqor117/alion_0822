@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <head>
@@ -42,278 +42,547 @@
         <link href="css/index.css" rel="stylesheet"/>
 
     </head>
-<body>
+    <b>
 
-<a href="#pop1">팝업열기</a><br/>
-<a href="#pop2">팝업2열기</a>
+        <a href="#pop1">팝업열기</a><br/><br/>
+        <a href="#pop2">팝업2열기</a><br/><br/>
+
+        <b></b><a href="#pop3">팝업3열기 성적상세</a></b>
 
 
-<!--<================= 개인정보 수정 팝업 소스 시작. ===================>-->
+    <!--<================= 개인정보 수정 팝업 소스 시작. ===================>-->
 
 
-<div class="popup" id="pop1">
-    <div class="popup_top">
-        <div class="mt15 tc fs15 fw600 fc_white">
-            정보수정
-            <a href="#a">닫기</a>
+    <div class="popup" id="pop1">
+        <div class="popup_top">
+            <div class="mt15 tc fs15 fw600 fc_white">
+                정보수정
+                <a href="#a">닫기</a>
+            </div>
         </div>
-    </div>
-    <div class="mt65 ml10">
-        <div class="edit_input fs14 fw400">
-            &nbsp;아이디<br/>
-            <input class="mt5 edit_id_bg" readonly type="text" value="로그인한 아이디 데이터">
-        </div>
+        <div class="mt65 ml10">
+            <div class="edit_input fs14 fw400">
+                &nbsp;아이디<br/>
+                <input class="mt5 edit_id_bg" readonly type="text" value="로그인한 아이디 데이터">
+            </div>
 
-        <div class="edit_input mt20 fs14 fw400">
-            &nbsp;기존 비밀번호<br/>
-            <input placeholder="기존 비밀번호를 입력해주세요." type="text">
-        </div>
+            <div class="edit_input mt20 fs14 fw400">
+                &nbsp;기존 비밀번호<br/>
+                <input placeholder="기존 비밀번호를 입력해주세요." type="text">
+            </div>
 
-        <div class="edit_input mt20 fs14 fw400">
-            &nbsp;새 비밀번호<br/>
-            <input placeholder="새로운 비밀번호를 입력해주세요." type="text">
-        </div>
+            <div class="edit_input mt20 fs14 fw400">
+                &nbsp;새 비밀번호<br/>
+                <input placeholder="새로운 비밀번호를 입력해주세요." type="text">
+            </div>
 
-        <div class="edit_input mt20 fs14 fw400">
-            &nbsp;이름<br/>
-            <input placeholder="이름을 입력해주세요." type="text">
-        </div>
+            <div class="edit_input mt20 fs14 fw400">
+                &nbsp;이름<br/>
+                <input placeholder="이름을 입력해주세요." type="text">
+            </div>
 
-        <div class="edit_input mt20 fs14 fw400">
-            &nbsp;핸드폰 번호<br/>
-            <input placeholder="'-'를 제외한 숫자만 입력해주세요." type="text">
+            <div class="edit_input mt20 fs14 fw400">
+                &nbsp;핸드폰 번호<br/>
+                <input placeholder="'-'를 제외한 숫자만 입력해주세요." type="text">
+            </div>
         </div>
-    </div>
-    <div class="mt40 ml15">
+        <div class="mt40 ml15">
         <span class="gray_btn_2">
         <input onclick="location.href='#'" type="button" value="취소">
     </span>
-        <span class="ml10 navy_btn_2">
+            <span class="ml10 navy_btn_2">
         <input onclick="location.href='#result';alert('개인정보가 수정되었습니다.')" type="button" value="수정">
     </span>
-    </div>
-</div>
-
-<div class="dim"></div>
-
-<!--<================= 개인정보 수정 팝업 소스 끝. ===================>-->
-
-
-<a href="#pop2">팝업2열기</a>
-
-
-<!--<================= 농장검 수정 팝업 소스 시작. ===================>-->
-
-
-<div class="popup" id="pop2">
-    <div class="popup_top">
-        <div class="mt15 tc fs15 fw600 fc_white">
-            농장검색
-            <a href="#a">닫기</a>
         </div>
     </div>
-    <div class="mt50 ml10">
-        <div class="fc_navy tc fs12 f400">
-            *농장명 / 농장주 선택 입력 조회 가능
+
+    <div class="dim"></div>
+
+    <!--<================= 개인정보 수정 팝업 소스 끝. ===================>-->
+
+
+    <!--<================= 농장검색 수정 팝업 소스 시작. ===================>-->
+
+
+    <div class="popup" id="pop2">
+        <div class="popup_top">
+            <div class="mt15 tc fs15 fw600 fc_white">
+                농장검색
+                <a href="#a">닫기</a>
+            </div>
         </div>
-
-        <div class="ml10">
-            <div class="farm_input fs14 fw400 mt30">
-                농장명<input class="ml20" placeholder="농장명을 입력하세요." type="text" value="">
+        <div class="mt50 ml10">
+            <div class="fc_navy tc fs12 f400">
+                *농장명 / 농장주 선택 입력 조회 가능
             </div>
 
-            <div class="farm_input mt20 fs14 fw400">
-                농장주<input class="ml20" placeholder="농장주를 입력하세요." type="text" value="">
-            </div>
+            <div class="ml10">
+                <div class="farm_input fs14 fw400 mt30">
+                    농장명<input class="ml20" placeholder="농장명을 입력하세요." type="text" value="">
+                </div>
 
-            <div class="mt20 fr mr20">
+                <div class="farm_input mt20 fs14 fw400">
+                    농장주<input class="ml20" placeholder="농장주를 입력하세요." type="text" value="">
+                </div>
+
+                <div class="mt20 fr mr20">
             <span class="navy_btn">
                 <input type="button" value="검색">
             </span>
-            </div>
-        </div>
-
-        <div class="mt20 t_head tc fs8">
-            <div class="t_head_num">
-                순번
-            </div>
-            <div class="t_head_farm">
-                농장명
-            </div>
-            <div class="t_head_master">
-                농장주
-            </div>
-            <div class="t_head_location">
-                위치
-            </div>
-        </div>
-        <div class="t_list fs8 tc">
-
-
-            <div class="row1">
-
-                <div class="t_head_num">
-                    1
-                </div>
-
-                <div class="t_head_farm">
-                    아우라농장
-                </div>
-
-                <div class="t_head_master">
-                    홍길동
-                </div>
-
-                <div class="t_head_location">
-                    전북 전주시
                 </div>
             </div>
 
-            <div class="row2">
 
-                <div class="t_head_num">
-                    2
-                </div>
+            <div class="t_list ml10 mt20">
+                <table align="center" border="0" height="fit-content" width="320px">
+                    <thead align="center">
+                    <tr>
+                        <td>순번</td>
+                        <td>농장명</td>
+                        <td>농장주</td>
+                        <td>위치</td>
+                    </tr>
+                    </thead>
 
-                <div class="t_head_farm">
-                    아우라농장
-                </div>
+                    <tbody align="center">
+                    <tr>
+                        <td>1</td>
+                        <td>아우라농장</td>
+                        <td>홍길동</td>
+                        <td>전북 전주시</td>
+                    </tr>
 
-                <div class="t_head_master">
-                    홍길동
-                </div>
+                    <tr class="tr_onclick">
+                        <td>2</td>
+                        <td>아우라 농장</td>
+                        <td>홍길동</td>
+                        <td>전북 전주시</td>
+                    </tr>
 
-                <div class="t_head_location">
-                    전북 전주시
-                </div>
+                    <tr>
+                        <td>3</td>
+                        <td>아우랄라농장</td>
+                        <td>홍길동</td>
+                        <td>전북 전주시</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>아우랄라농장</td>
+                        <td>홍길동</td>
+                        <td>전북 전주시</td>
+                    </tr>
+
+                    <tr>
+                        <td>5</td>
+                        <td>아우라농장</td>
+                        <td>홍길동</td>
+                        <td>전북 전주시</td>
+                    </tr>
+
+                    <tr>
+                        <td>6</td>
+                        <td>길동농장</td>
+                        <td>홍길동</td>
+                        <td>전북 전주시</td>
+                    </tr>
+
+                    <tr>
+                        <td>7</td>
+                        <td>길동동농장</td>
+                        <td>홍길동</td>
+                        <td>전북 전주시</td>
+                    </tr>
+
+
+                    </tbody>
+                </table>
+
+
             </div>
 
-            <div class="row3">
-
-                <div class="t_head_num">
-                    3
-                </div>
-
-                <div class="t_head_farm">
-                    아우라농장
-                </div>
-
-                <div class="t_head_master">
-                    홍길동
-                </div>
-
-                <div class="t_head_location">
-                    전북 전주시
-                </div>
+            <div class="farm_input mt20 fs14 fw400 mt20 ml10">
+                선택 농가<input class="ml10" type="text" value="선택 된 농가 노출">
             </div>
 
-            <div class="row4">
-
-                <div class="t_head_num">
-                    4
-                </div>
-
-                <div class="t_head_farm">
-                    아우라농장
-                </div>
-
-                <div class="t_head_master">
-                    홍길동
-                </div>
-
-                <div class="t_head_location">
-                    전북 전주시
-                </div>
-            </div>
-
-            <div class="row5">
-
-                <div class="t_head_num">
-                    5
-                </div>
-
-                <div class="t_head_farm">
-                    아우라농장
-                </div>
-
-                <div class="t_head_master">
-                    홍길동
-                </div>
-
-                <div class="t_head_location">
-                    전북 전주시
-                </div>
-            </div>
-
-            <div class="row6">
-
-                <div class="t_head_num">
-                    6
-                </div>
-
-                <div class="t_head_farm">
-                    아우라농장
-                </div>
-
-                <div class="t_head_master">
-                    홍길동
-                </div>
-
-                <div class="t_head_location">
-                    전북 전주시
-                </div>
-            </div>
 
         </div>
-
-        <div class="farm_input mt20 fs14 fw400 mt20 ml10">
-            선택 농가<input class="ml10" type="text" value="선택 된 농가 노출">
-        </div>
-
-
-    </div>
-    <div class="mt20 ml15">
+        <div class="mt20 ml15">
         <span class="ml10 navy_btn_3">
             <input onclick="location.href='#result'" type="button" value="선택 농가 적용">
     </span>
+        </div>
     </div>
-</div>
 
-<div class="dim"></div>
-색
+    <div class="dim"></div>
 
 
-<!--<================= 농장검색 수정 팝업 소스 . ===================>-->
+    <!--<================= 농장검색 수정 팝업 소스 끝. ===================>-->
 
 
-<div class="paging">
+    <!--<================= 페이징 소스 시작. ===================>-->
+
+    <div class="paging">
     <span class="prev f">
         <a href="#1">
             <img alt="맨처음" src="./img/page_prev_f.png"></a></span>
-    <span class="prev">
+        <span class="prev">
         <a href="#">
             <img alt="이전" src="./img/page_prev.png"></a>
     </span>
-    <a class="on" href="javascript:void(0);">1</a>
-    <a href="?s=community&amp;b=review&amp;page=2#page_anchor">2</a>
-    <a href="#3">3</a>
-    <a href="#4">4</a>
-    <a href="#5">5</a>
-    <a href="#6">6</a>
-    <a href="#7">7</a>
-    <a href="#8">8</a>
-    <a href="#9">9</a>
-    <a href="#10">10</a>
-    <span class="next">
+        <a class="on" href="javascript:void(0);">1</a>
+        <a href="?s=community&amp;b=review&amp;page=2#page_anchor">2</a>
+        <a href="#3">3</a>
+        <a href="#4">4</a>
+        <a href="#5">5</a>
+        <a href="#6">6</a>
+        <a href="#7">7</a>
+        <a href="#8">8</a>
+        <a href="#9">9</a>
+        <a href="#10">10</a>
+        <span class="next">
     <a href="#">
         <img alt="다음" src="./img/page_next.png"></a>
     </span>
 
-    <span class="next f">
+        <span class="next f">
         <a href="#11">
             <img alt="다음" src="./img/page_next_e.png"></a></span>
-</div>
+    </div>
+
+    <!--<================= 농장검색 수정 팝업 소스 끝. ===================>-->
 
 
-</body>
-</head></html>
+    <!--<================= 성적 상세보기 팝업 소스 시작. ===================>-->
+
+
+    <div class="popup3" id="pop3">
+        <div class="popup3_top">
+            <div class="mt15 tc fs15 fw600 fc_white">
+                상세보기
+                <a href="#a">닫기</a>
+            </div>
+        </div>
+        <div class="mt65">
+            <div class="popup3_table_area">
+                <table align="center" border="1" height="250px" width="800px">
+                    <thead align="center">
+                    <tr>
+                        <td rowspan="2">구분</td>
+                        <td colspan="13">2019년</td>
+                    </tr>
+                    <tr>
+                        <td>1월</td>
+                        <td>2월</td>
+                        <td>3월</td>
+                        <td>4월</td>
+                        <td>5월</td>
+                        <td>6월</td>
+                        <td>7월</td>
+                        <td>8월</td>
+                        <td>9월</td>
+                        <td>10월</td>
+                        <td>11월</td>
+                        <td>12월</td>
+                        <td>평균</td>
+                    </tr>
+                    </thead>
+                    <tbody align="center">
+                    <tr>
+                        <td>
+                            1위농가평균
+                        </td>
+                        <td>
+                            27
+                        </td>
+                        <td>
+                            27.2
+                        </td>
+                        <td>
+                            27.5
+                        </td>
+                        <td>
+                            27.5
+                        </td>
+                        <td>
+                            27.5
+                        </td>
+                        <td>
+                            27.5
+                        </td>
+                        <td>
+                            27
+                        </td>
+                        <td>
+                            27.2
+                        </td>
+                        <td>
+                            27.5
+                        </td>
+                        <td>
+                            27.5
+                        </td>
+                        <td>
+                            27.5
+                        </td>
+                        <td>
+                            27.5
+                        </td>
+                        <td>
+                            27.5
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            상위30%<br/>
+                            농가평균
+                        </td>
+                        <td>
+                            26
+                        </td>
+                        <td>
+                            26.2
+                        </td>
+                        <td>
+                            26.5
+                        </td>
+                        <td>
+                            26.5
+                        </td>
+                        <td>
+                            25.5
+                        </td>
+                        <td>
+                            24.5
+                        </td>
+                        <td>
+                            26
+                        </td>
+                        <td>
+                            22.2
+                        </td>
+                        <td>
+                            26.5
+                        </td>
+                        <td>
+                            27.5
+                        </td>
+                        <td>
+                            28.5
+                        </td>
+                        <td>
+                            20.5
+                        </td>
+                        <td>
+                            22.5
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            내농가평균
+                        </td>
+                        <td>
+                            26
+                        </td>
+                        <td>
+                            26.2
+                        </td>
+                        <td>
+                            26.5
+                        </td>
+                        <td class="fc_red">
+                            26.5
+                        </td>
+                        <td class="fc_red">
+                            25.5
+                        </td>
+                        <td>
+                            24.5
+                        </td>
+                        <td>
+                            26
+                        </td>
+                        <td>
+                            22.2
+                        </td>
+                        <td class="fc_blue">
+                            26.5
+                        </td>
+                        <td class="fc_blue">
+                            27.5
+                        </td>
+                        <td>
+                            28.5
+                        </td>
+                        <td>
+                            20.5
+                        </td>
+                        <td>
+                            22.5
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            하위30%<br/>
+                            농가평균
+                        </td>
+                        <td>
+                            26
+                        </td>
+                        <td>
+                            26.2
+                        </td>
+                        <td>
+                            26.5
+                        </td>
+                        <td>
+                            26.5
+                        </td>
+                        <td>
+                            25.5
+                        </td>
+                        <td>
+                            24.5
+                        </td>
+                        <td>
+                            26
+                        </td>
+                        <td>
+                            22.2
+                        </td>
+                        <td>
+                            26.5
+                        </td>
+                        <td>
+                            27.5
+                        </td>
+                        <td>
+                            28.5
+                        </td>
+                        <td>
+                            20.5
+                        </td>
+                        <td>
+                            22.5
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            내농가 백분율
+                        </td>
+                        <td>
+                            39%
+                        </td>
+                        <td>
+                            20%
+                        </td>
+                        <td>
+                            26%
+                        </td>
+                        <td>
+                            26.5%
+                        </td>
+                        <td>
+                            25.5%
+                        </td>
+                        <td>
+                            24.5%
+                        </td>
+                        <td>
+                            26%
+                        </td>
+                        <td>
+                            22.2%
+                        </td>
+                        <td>
+                            26%
+                        </td>
+                        <td>
+                            27%
+                        </td>
+                        <td>
+                            28.5%
+                        </td>
+                        <td>
+                            20.5%
+                        </td>
+                        <td>
+                            22.5%
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="popup3_text_area tc fs12 fc_navy fw400">
+            *미 가입 농가의 경우 상세 조회가 불가능합니다.<br/>
+            *산출식 : (임신일수 x 총 이유자돈수) / (총 모돈사육일수(후보돈제외)x이유복수)) x 365 / 평균임신기간
+        </div>
+    </div>
+
+    <div class="dim"></div>
+
+    <!--<================= 개인정보 수정 팝업 소스 끝. ===================>-->
+
+
+    아우라 농장 소스코드
+
+
+    <!--    <style type="text/css">-->
+    <!--        .tg {-->
+    <!--            border-collapse: collapse;-->
+    <!--            border-spacing: 0;-->
+    <!--        }-->
+
+    <!--        .tg td {-->
+    <!--            border-color: black;-->
+    <!--            border-style: solid;-->
+    <!--            border-width: 1px;-->
+    <!--            font-family: Arial, sans-serif;-->
+    <!--            font-size: 14px;-->
+    <!--            overflow: hidden;-->
+    <!--            padding: 10px 5px;-->
+    <!--            word-break: normal;-->
+    <!--        }-->
+
+    <!--        .tg th {-->
+    <!--            border-color: black;-->
+    <!--            border-style: solid;-->
+    <!--            border-width: 1px;-->
+    <!--            font-family: Arial, sans-serif;-->
+    <!--            font-size: 14px;-->
+    <!--            font-weight: normal;-->
+    <!--            overflow: hidden;-->
+    <!--            padding: 10px 5px;-->
+    <!--            word-break: normal;-->
+    <!--        }-->
+
+    <!--        .tg .tg-m5nv {-->
+    <!--            border-color: #656565;-->
+    <!--            text-align: center;-->
+    <!--            vertical-align: top-->
+    <!--        }-->
+
+    <!--        .tg .tg-rev3 {-->
+    <!--            background-color: #efefef;-->
+    <!--            border-color: #656565;-->
+    <!--            text-align: center;-->
+    <!--            vertical-align: top-->
+    <!--        }-->
+    <!--    </style>-->
+    <!--    <table class="tg">-->
+    <!--        <thead>-->
+    <!--        <tr>-->
+    <!--            <th class="tg-rev3">순번</th>-->
+    <!--            <th class="tg-rev3">농장명</th>-->
+    <!--            <th class="tg-rev3">농장주</th>-->
+    <!--            <th class="tg-rev3">위치</th>-->
+    <!--        </tr>-->
+    <!--        </thead>-->
+
+
+    </body>
+</head>
+</html>

@@ -11,14 +11,13 @@
     max-height: 1000000px
 }
 
-body, form, div, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, fieldset, th, td, input, textarea, button, select, pre {
+body, form, div, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, fieldset, input, textarea, button, select, pre {
     margin: 0;
     padding: 0;
     font-family: "Noto Sans KR", "Malgun Gothic", "맑은 고딕", "Hiragino Sans GB", "Microsoft Yahei", "돋움", Dotum, "굴림", Gulim, "Apple Gothic", "Apple SD Gothic Neo", Sans-serif;
     font-size: 13px;
     font-weight: normal;
     line-height: normal;
-!important;
     overflow: auto
 }
 
@@ -1047,6 +1046,9 @@ nav {
 
 /*레이어팝업 css*/
 
+
+/*팝업_1 css영역*/
+
 .popup {
     display: none;
     position: fixed;
@@ -1127,55 +1129,218 @@ nav {
     border-radius: 5px;
 }
 
-.t_head {
-    width: 350px;
-    height: 30px;
-    line-height: 30px;
-    background: lightgrey;
-    overflow: hidden;
-    border: 1px solid #cccccc;
-}
+/*.t_head {*/
+/*    width: 350px;*/
+/*    height: 30px;*/
+/*    line-height: 30px;*/
+/*    background: lightgrey;*/
+/*    overflow: hidden;*/
+/*    border: 1px solid #cccccc;*/
+/*}*/
 
-.t_head_num {
-    display: inline-block;
-    line-height: 30px;
-    width: 42px;
-    height: 30px;
-}
+/*.t_head_num {*/
+/*    display: inline-block;*/
+/*    line-height: 30px;*/
+/*    width: 42px;*/
+/*    height: 30px;*/
+/*}*/
 
-.t_head_farm {
-    display: inline-block;
-    line-height: 30px;
-    width: 125px;
-    height: 30px;
-}
+/*.t_head_farm {*/
+/*    display: inline-block;*/
+/*    line-height: 30px;*/
+/*    width: 125px;*/
+/*    height: 30px;*/
+/*}*/
 
-.t_head_master {
-    display: inline-block;
-    line-height: 30px;
-    width: 65px;
-    height: 30px;
-}
+/*.t_head_master {*/
+/*    display: inline-block;*/
+/*    line-height: 30px;*/
+/*    width: 65px;*/
+/*    height: 30px;*/
+/*}*/
 
-.t_head_location {
-    display: inline-block;
-    line-height: 30px;
-    width: 105px;
-    height: 30px;
-}
+/*.t_head_location {*/
+/*    display: inline-block;*/
+/*    line-height: 30px;*/
+/*    width: 105px;*/
+/*    height: 30px;*/
+/*}*/
 
 .t_list {
-    width: 350px;
-    height: 120px;
+    width: 320px;
+    height: 140px;
     background: white;
     border: 1px solid #cccccc;
+}
+
+.t_list table thead {
+    position: sticky;
+    top: 0;
+    background: #dbdbdb;
+    height: 35px;
+    font-size: 10pt;
+    font-weight: 500;
+    color: #111111;
+}
+
+.t_list table tbody {
+    font-size: 9.5pt;
+    font-weight: 400;
+    line-height: 23px;
+    background: #ffffff;
+    color: #111111;
+}
+
+.t_list table tbody tr {
+    cursor: pointer;
+}
+
+.t_list table tbody tr.tr_onclick {
+    background: #2F2D75;
+    color: white;
 }
 
 .edit_id_bg {
     background: #efefef;
 }
 
+/*팝업_2 css영역*/
+.popup2 {
+    display: none;
+    position: fixed;
+    z-index: 5;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 650px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0;
+    background: white;
+}
+
+.popup2_top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 50px;
+    background: #2F2D75;
+}
+
+.popup2 a {
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    top: 15px;
+    right: 30px;
+}
+
+
+.popup2:target {
+    display: block;
+    opacity: 1;
+}
+
+.popup2:target + .dim {
+    opacity: 1;
+    z-index: 2;
+}
+
+
+/*팝업_3 (wide) css영역*/
+
+.popup3 {
+    display: none;
+    position: fixed;
+    z-index: 5;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 420px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0;
+    background: white;
+}
+
+.popup3_top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 900px;
+    height: 50px;
+    background: #2F2D75;
+}
+
+.popup3 a {
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    top: 15px;
+    right: 30px;
+}
+
+
+.popup3:target {
+    display: block;
+    opacity: 1;
+}
+
+.popup3:target + .dim {
+    opacity: 1;
+    z-index: 2;
+}
+
+.popup3_table_area {
+    position: absolute;
+    width: 800px;
+    height: 250px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.popup3_text_area {
+    position: absolute;
+    width: 800px;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 12px;
+}
+
+.popup3_table_area table {
+    background: white;
+    border: 1px solid #cccccc;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.popup3_table_area table thead {
+    background: #dbdbdb;
+}
+
+
 /* main css 영역 */
+
+.scroll-down {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
 
 #topButton {
     position: fixed;
@@ -1361,7 +1526,7 @@ nav {
     background: white;
     top: 70px;
     overflow: hidden;
-    padding-top: 11px;
+    padding-top: 11.5px;
 }
 
 .tab_1_relative {

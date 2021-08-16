@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <head>
@@ -115,7 +115,7 @@
 <!--<================= 개인정보 수정 팝업 소스 끝. ===================>-->
 
 
-<!--<================= 농장검 수정 팝업 소스 시작. ===================>-->
+<!--<================= 농장검색 수정 팝업 소스 시작. ===================>-->
 
 
 <div class="popup" id="pop2">
@@ -146,136 +146,73 @@
             </div>
         </div>
 
-        <div class="mt20 t_head tc fs8">
-            <div class="t_head_num">
-                순번
-            </div>
-            <div class="t_head_farm">
-                농장명
-            </div>
-            <div class="t_head_master">
-                농장주
-            </div>
-            <div class="t_head_location">
-                위치
-            </div>
-        </div>
-        <div class="t_list fs8 tc">
+
+        <div class="t_list ml10 mt20">
+            <table align="center" border="0" height="fit-content" width="320px">
+                <thead align="center">
+                <tr>
+                    <td>순번</td>
+                    <td>농장명</td>
+                    <td>농장주</td>
+                    <td>위치</td>
+                </tr>
+                </thead>
+
+                <tbody align="center">
+                <tr>
+                    <td>1</td>
+                    <td>아우라농장</td>
+                    <td>홍길동</td>
+                    <td>전북 전주시</td>
+                </tr>
+
+                <tr class="tr_onclick">
+                    <td>2</td>
+                    <td>아우라 농장</td>
+                    <td>홍길동</td>
+                    <td>전북 전주시</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>아우랄라농장</td>
+                    <td>홍길동</td>
+                    <td>전북 전주시</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>아우랄라농장</td>
+                    <td>홍길동</td>
+                    <td>전북 전주시</td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>아우라농장</td>
+                    <td>홍길동</td>
+                    <td>전북 전주시</td>
+                </tr>
+
+                <tr>
+                    <td>6</td>
+                    <td>길동농장</td>
+                    <td>홍길동</td>
+                    <td>전북 전주시</td>
+                </tr>
+
+                <tr>
+                    <td>7</td>
+                    <td>길동동농장</td>
+                    <td>홍길동</td>
+                    <td>전북 전주시</td>
+                </tr>
 
 
-            <div class="row1">
+                </tbody>
+            </table>
 
-                <div class="t_head_num">
-                    1
-                </div>
 
-                <div class="t_head_farm">
-                    아우라농장
-                </div>
-
-                <div class="t_head_master">
-                    홍길동
-                </div>
-
-                <div class="t_head_location">
-                    전북 전주시
-                </div>
-            </div>
-
-            <div class="row2">
-
-                <div class="t_head_num">
-                    2
-                </div>
-
-                <div class="t_head_farm">
-                    아우라농장
-                </div>
-
-                <div class="t_head_master">
-                    홍길동
-                </div>
-
-                <div class="t_head_location">
-                    전북 전주시
-                </div>
-            </div>
-
-            <div class="row3">
-
-                <div class="t_head_num">
-                    3
-                </div>
-
-                <div class="t_head_farm">
-                    아우라농장
-                </div>
-
-                <div class="t_head_master">
-                    홍길동
-                </div>
-
-                <div class="t_head_location">
-                    전북 전주시
-                </div>
-            </div>
-
-            <div class="row4">
-
-                <div class="t_head_num">
-                    4
-                </div>
-
-                <div class="t_head_farm">
-                    아우라농장
-                </div>
-
-                <div class="t_head_master">
-                    홍길동
-                </div>
-
-                <div class="t_head_location">
-                    전북 전주시
-                </div>
-            </div>
-
-            <div class="row5">
-
-                <div class="t_head_num">
-                    5
-                </div>
-
-                <div class="t_head_farm">
-                    아우라농장
-                </div>
-
-                <div class="t_head_master">
-                    홍길동
-                </div>
-
-                <div class="t_head_location">
-                    전북 전주시
-                </div>
-            </div>
-
-            <div class="row6">
-
-                <div class="t_head_num">
-                    6
-                </div>
-
-                <div class="t_head_farm">
-                    아우라농장
-                </div>
-
-                <div class="t_head_master">
-                    홍길동
-                </div>
-
-                <div class="t_head_location">
-                    전북 전주시
-                </div>
-            </div>
 
         </div>
 
@@ -295,7 +232,7 @@
 <div class="dim"></div>
 
 
-<!--<================= 농장검색 수정 팝업 소스 . ===================>-->
+<!--<================= 농장검색 수정 팝업 소스 끝. ===================>-->
 
 
 <div class="tab_1">
@@ -370,18 +307,18 @@
 
     <div class="content_area_detail_1">
         <div class="detail_1_table area_bg_white area_border pd20">
-        해당영역에 표가 삽입됩니다.<br/>
-        <br/>
-        *해당 박스의 사이즈는 width :<br/>350px, height 값은 600px 입니다.<br/>
-        <br/>
-        *배경색 변경 class 조정 :<br/>area_bg(현재 옅은회색) / area_bg_white(흰색)<br/>
-        <br/>
-        *테두리 변경 Class 조정 :<br/>둥근테두리 (area_border_radius) / 직각테두리 (area_border)<br/>
-        *둘다 작성하지 않으면 테두리 제거<br/>
-        <br/>
-        *여백 제거 class 조정 :<br/>표를 꽉채워서 쓰고자 할 땐, class에서 pd20을 제거 <br/>
-        <br/>
-        <b class="fc_red">*해당 영역은 크기 고정 영역입니다. height값 600px 이하의 표를 삽입해주세요.</b>
+            해당영역에 표가 삽입됩니다.<br/>
+            <br/>
+            *해당 박스의 사이즈는 width :<br/>350px, height 값은 600px 입니다.<br/>
+            <br/>
+            *배경색 변경 class 조정 :<br/>area_bg(현재 옅은회색) / area_bg_white(흰색)<br/>
+            <br/>
+            *테두리 변경 Class 조정 :<br/>둥근테두리 (area_border_radius) / 직각테두리 (area_border)<br/>
+            *둘다 작성하지 않으면 테두리 제거<br/>
+            <br/>
+            *여백 제거 class 조정 :<br/>표를 꽉채워서 쓰고자 할 땐, class에서 pd20을 제거 <br/>
+            <br/>
+            <b class="fc_red">*해당 영역은 크기 고정 영역입니다. height값 600px 이하의 표를 삽입해주세요.</b>
         </div>
 
         <div class="detail_1_paging area_bg_white">
