@@ -1,96 +1,102 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-<head>
-  <meta http-equv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title>AliOn Login</title>
+    <meta charset="UTF-8">
+    <head>
+        <meta content="text/html; charset=utf-8" http-equv="Content-Type">
+        <meta content="text/css" http-equiv="Content-Style-Type">
+        <title>AliOn Login</title>
 
-  <link rel="shortcut icon" href="favicon.ico type=">
-  <link rel="icon" href="favicon.ico type=">
+        <link href="favicon.ico type=" rel="shortcut icon">
+        <link href="favicon.ico type=" rel="icon">
 
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <script src="js/wow.min.js"></script>
-  <script>
-    var wow = new WOW(
-            {
-              boxClass:     'wow',      // animated element css class (default is wow)
-              animateClass: 'animate__animated', // animation css class (default is animated)
-              offset:       100,          // distance to the element when triggering the animation (default is 0)
-              mobile:       true,       // trigger animations on mobile devices (default is true)
-              live:         true,       // act on asynchronously loaded content (default is true)
-              callback:     function(box) {
-                // the callback is fired every time an animation is started
-                // the argument that is passed in is the DOM node being animated
-              },
-              scrollContainer: null,    // optional scroll container selector, otherwise use window,
-              resetAnimation: true,     // reset animation on end (default is true)
-            }
-    );
-    wow.init();
+        <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+              integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+              rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script crossorigin="anonymous"
+                integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A=="
+                src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
+        <script src="js/wow.min.js"></script>
+        <script>
+            var wow = new WOW(
+                {
+                    boxClass: 'wow',      // animated element css class (default is wow)
+                    animateClass: 'animate__animated', // animation css class (default is animated)
+                    offset: 100,          // distance to the element when triggering the animation (default is 0)
+                    mobile: true,       // trigger animations on mobile devices (default is true)
+                    live: true,       // act on asynchronously loaded content (default is true)
+                    callback: function (box) {
+                        // the callback is fired every time an animation is started
+                        // the argument that is passed in is the DOM node being animated
+                    },
+                    scrollContainer: null,    // optional scroll container selector, otherwise use window,
+                    resetAnimation: true,     // reset animation on end (default is true)
+                }
+            );
+            wow.init();
 
-  </script>
+        </script>
 
-  <link rel="stylesheet" href="css/index.css" />
+        <link href="css/index.css" rel="stylesheet"/>
 
-</head>
+    </head>
 <body>
 
 <div class="login">
-  <div class="mt60 tc">
-    <img src="./img/login_titel.png" alt="알리온 로그인" height="50px">
-  </div>
+    <div class="tc">
+        <img alt="알리온 로그인" height="50px" src="./img/login_titel.png">
+    </div>
 
-  <div class="mt50">
-    <div class="tc abataimg">
-      <img src="./img/id_abata.png" alt="아바타">
+    <div class="tc abataimg mt30">
+        <img alt="아바타" src="./img/id_abata.png">
     </div>
 
     <div class="login_box">
-      <div class="fs30 fw5400 tc mt50">
-        Manager Login
-      </div>
 
-      <div class="id mt80 ml50">
-      <input class="fs16" type="text" placeholder="아이디를 입력해주세요.">
-      </div>
+        <div class="tc fs30 fw400 mt50">
+            Manager Login
+        </div>
 
-      <div class="pw mt20 ml50">
-      <input class="fs16" type="password" placeholder="비밀번호를 입력해주세요.">
-      </div>
+        <div class="id mt100 ml50">
+            <input class="fs16" placeholder="아이디를 입력해주세요." type="text">
+        </div>
 
-      <div class="ccheck ml50 mt20">
-        <input type="checkbox" id="login_save">
-        <label for="login_save">
-          <div class="chk_img">로그인 정보 저장</div>
-        </label>
-      </div>
+        <div class="pw mt20 ml50">
+            <input class="fs16" placeholder="비밀번호를 입력해주세요." type="password">
+        </div>
 
-      <div class="login_btn fw600 fc_white mt65 ml50">
-        <input type="submit" value="로그인하기" onclick="alert('아이디 또는 비밀번호가 일치하지 않습니다.');location.href='index.html'">
-      </div>
+        <div class="ccheck ml50 mt20">
+            <input id="login_save" type="checkbox">
+            <label for="login_save">
+                <div class="chk_img">로그인 정보 저장</div>
+            </label>
+        </div>
+
+        <div class="login_btn fw600 fc_white mt65 ml50">
+            <input onclick="alert('아이디 또는 비밀번호가 일치하지 않습니다.');location.href='index.html'" type="submit"
+                   value="로그인하기">
+        </div>
+
     </div>
-  </div>
+
 </div>
 
 <footer class="footer_login">
-  <div class="footer_center">
-  <div class="footer_img">
-    <img src="./img/alion_bi.png" alt="푸터bi" height="60px">
-  </div>
-  <div class="footer_text">
-  <div class="fs15 fw300 tc">
-    <b>문의메일</b> question@email.com &emsp;<b>파트너요청</b> company@email.com &emsp;<b>전화문의</b> 070. 1234. 5678.
-  </div>
-  <div class="fs15 fw300 tc mt10">
-    (주)축산AI기술개발연구소  |  주소. 서울특별시 종로구 종로3가 종로대로311-2  |   서비스담당자. 여해원
-  </div>
-  </div>
-  </div>
+    <div class="footer_center">
+        <div class="footer_img">
+            <img alt="푸터bi" height="60px" src="./img/alion_bi.png">
+        </div>
+        <div class="footer_text">
+            <div class="fs15 fw300 tc">
+                <b>문의메일</b> question@email.com &emsp;<b>파트너요청</b> company@email.com &emsp;<b>전화문의</b> 070. 1234. 5678.
+            </div>
+            <div class="fs15 fw300 tc mt10">
+                (주)축산AI기술개발연구소 | 주소. 서울특별시 종로구 종로3가 종로대로311-2 | 서비스담당자. 여해원
+            </div>
+        </div>
+    </div>
 </footer>
 
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <head>
@@ -116,194 +116,931 @@
 <!--<================= 개인정보 수정 팝업 소스 끝. ===================>-->
 
 
-<!--<================= 농장검색 수정 팝업 소스 시작. ===================>-->
+<!--<================= 성적 상세보기 팝업 소스 시작. ===================>-->
 
 
-<div class="popup" id="pop2">
-    <div class="popup_top">
+<div class="popup3" id="pop3">
+    <div class="popup3_top">
         <div class="mt15 tc fs15 fw600 fc_white">
-            농장검색
+            상세보기
             <a href="#a">닫기</a>
         </div>
     </div>
-    <div class="mt50 ml10">
-        <div class="fc_navy tc fs12 f400">
-            *농장명 / 농장주 선택 입력 조회 가능
-        </div>
-
-        <div class="ml10">
-            <div class="farm_input fs14 fw400 mt30">
-                농장명<input class="ml20" placeholder="농장명을 입력하세요." type="text" value="">
-            </div>
-
-            <div class="farm_input mt20 fs14 fw400">
-                농장주<input class="ml20" placeholder="농장주를 입력하세요." type="text" value="">
-            </div>
-
-            <div class="mt20 fr mr20">
-            <span class="navy_btn">
-                <input type="button" value="검색">
-            </span>
-            </div>
-        </div>
-
-
-        <div class="t_list ml10 mt20">
-            <table align="center" border="0" height="fit-content" width="320px">
+    <div class="mt65">
+        <div class="popup3_table_area">
+            <table align="center" border="1" height="250px" width="800px">
                 <thead align="center">
                 <tr>
-                    <td>순번</td>
-                    <td>농장명</td>
-                    <td>농장주</td>
-                    <td>위치</td>
+                    <td rowspan="2">구분</td>
+                    <td colspan="13">2019년</td>
+                </tr>
+                <tr>
+                    <td>1월</td>
+                    <td>2월</td>
+                    <td>3월</td>
+                    <td>4월</td>
+                    <td>5월</td>
+                    <td>6월</td>
+                    <td>7월</td>
+                    <td>8월</td>
+                    <td>9월</td>
+                    <td>10월</td>
+                    <td>11월</td>
+                    <td>12월</td>
+                    <td>평균</td>
                 </tr>
                 </thead>
-
                 <tbody align="center">
                 <tr>
-                    <td>1</td>
-                    <td>아우라농장</td>
-                    <td>홍길동</td>
-                    <td>전북 전주시</td>
+                    <td>
+                        1위농가평균
+                    </td>
+                    <td>
+                        27
+                    </td>
+                    <td>
+                        27.2
+                    </td>
+                    <td>
+                        27.5
+                    </td>
+                    <td>
+                        27.5
+                    </td>
+                    <td>
+                        27.5
+                    </td>
+                    <td>
+                        27.5
+                    </td>
+                    <td>
+                        27
+                    </td>
+                    <td>
+                        27.2
+                    </td>
+                    <td>
+                        27.5
+                    </td>
+                    <td>
+                        27.5
+                    </td>
+                    <td>
+                        27.5
+                    </td>
+                    <td>
+                        27.5
+                    </td>
+                    <td>
+                        27.5
+                    </td>
                 </tr>
-
-                <tr class="tr_onclick">
-                    <td>2</td>
-                    <td>아우라 농장</td>
-                    <td>홍길동</td>
-                    <td>전북 전주시</td>
+                <tr>
+                    <td>
+                        상위30%<br/>
+                        농가평균
+                    </td>
+                    <td>
+                        26
+                    </td>
+                    <td>
+                        26.2
+                    </td>
+                    <td>
+                        26.5
+                    </td>
+                    <td>
+                        26.5
+                    </td>
+                    <td>
+                        25.5
+                    </td>
+                    <td>
+                        24.5
+                    </td>
+                    <td>
+                        26
+                    </td>
+                    <td>
+                        22.2
+                    </td>
+                    <td>
+                        26.5
+                    </td>
+                    <td>
+                        27.5
+                    </td>
+                    <td>
+                        28.5
+                    </td>
+                    <td>
+                        20.5
+                    </td>
+                    <td>
+                        22.5
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        내농가평균
+                    </td>
+                    <td>
+                        26
+                    </td>
+                    <td>
+                        26.2
+                    </td>
+                    <td>
+                        26.5
+                    </td>
+                    <td class="fc_red">
+                        26.5
+                    </td>
+                    <td class="fc_red">
+                        25.5
+                    </td>
+                    <td>
+                        24.5
+                    </td>
+                    <td>
+                        26
+                    </td>
+                    <td>
+                        22.2
+                    </td>
+                    <td class="fc_blue">
+                        26.5
+                    </td>
+                    <td class="fc_blue">
+                        27.5
+                    </td>
+                    <td>
+                        28.5
+                    </td>
+                    <td>
+                        20.5
+                    </td>
+                    <td>
+                        22.5
+                    </td>
                 </tr>
 
                 <tr>
-                    <td>3</td>
-                    <td>아우랄라농장</td>
-                    <td>홍길동</td>
-                    <td>전북 전주시</td>
+                    <td>
+                        하위30%<br/>
+                        농가평균
+                    </td>
+                    <td>
+                        26
+                    </td>
+                    <td>
+                        26.2
+                    </td>
+                    <td>
+                        26.5
+                    </td>
+                    <td>
+                        26.5
+                    </td>
+                    <td>
+                        25.5
+                    </td>
+                    <td>
+                        24.5
+                    </td>
+                    <td>
+                        26
+                    </td>
+                    <td>
+                        22.2
+                    </td>
+                    <td>
+                        26.5
+                    </td>
+                    <td>
+                        27.5
+                    </td>
+                    <td>
+                        28.5
+                    </td>
+                    <td>
+                        20.5
+                    </td>
+                    <td>
+                        22.5
+                    </td>
                 </tr>
 
                 <tr>
-                    <td>4</td>
-                    <td>아우랄라농장</td>
-                    <td>홍길동</td>
-                    <td>전북 전주시</td>
+                    <td>
+                        내농가 백분율
+                    </td>
+                    <td>
+                        39%
+                    </td>
+                    <td>
+                        20%
+                    </td>
+                    <td>
+                        26%
+                    </td>
+                    <td>
+                        26.5%
+                    </td>
+                    <td>
+                        25.5%
+                    </td>
+                    <td>
+                        24.5%
+                    </td>
+                    <td>
+                        26%
+                    </td>
+                    <td>
+                        22.2%
+                    </td>
+                    <td>
+                        26%
+                    </td>
+                    <td>
+                        27%
+                    </td>
+                    <td>
+                        28.5%
+                    </td>
+                    <td>
+                        20.5%
+                    </td>
+                    <td>
+                        22.5%
+                    </td>
                 </tr>
-
-                <tr>
-                    <td>5</td>
-                    <td>아우라농장</td>
-                    <td>홍길동</td>
-                    <td>전북 전주시</td>
-                </tr>
-
-                <tr>
-                    <td>6</td>
-                    <td>길동농장</td>
-                    <td>홍길동</td>
-                    <td>전북 전주시</td>
-                </tr>
-
-                <tr>
-                    <td>7</td>
-                    <td>길동동농장</td>
-                    <td>홍길동</td>
-                    <td>전북 전주시</td>
-                </tr>
-
-
                 </tbody>
             </table>
-
-
-
         </div>
-
-        <div class="farm_input mt20 fs14 fw400 mt20 ml10">
-            선택 농가<input class="ml10" type="text" value="선택 된 농가 노출">
-        </div>
-
-
     </div>
-    <div class="mt20 ml15">
-        <span class="ml10 navy_btn_3">
-            <input onclick="location.href='#result'" type="button" value="선택 농가 적용">
-    </span>
+    <div class="popup3_text_area tc fs12 fc_navy fw400">
+        *미 가입 농가의 경우 상세 조회가 불가능합니다.<br/>
+        *산출식 : (임신일수 x 총 이유자돈수) / (총 모돈사육일수(후보돈제외)x이유복수)) x 365 / 평균임신기간
     </div>
 </div>
 
 <div class="dim"></div>
 
-
-<!--<================= 농장검색 수정 팝업 소스 끝. ===================>-->
-
+<!--<================= 개인정보 수정 팝업 소스 끝. ===================>-->
 
 
-<div class="tab_1">
-    <div class="w1200">
-        <div class="tab_1_right">
-            <span class="fs15 fc_black fw400 mr10">연도</span>
-            <span class="farm_year">
-  <select name="year">
-    <option value="2000" selected="selected">2000</option>
-    <option value="2001">2001</option>
-    <option value="2002">2002</option>
-    <option value="2003">2003</option>
-    <option value="2004">2004</option>
-    <option value="2005">2005</option>
-    <option value="2006">2006</option>
-    <option value="2007">2007</option>
-    <option value="2008">2008</option>
-    <option value="2009">2009</option>
-    <option value="2010">2010</option>
-    <option value="2011">2011</option>
-    <option value="2012">2012</option>
-    <option value="2013">2013</option>
-    <option value="2014">2014</option>
-    <option value="2015">2015</option>
-    <option value="2016">2016</option>
-    <option value="2017">2017</option>
-    <option value="2018">2018</option>
-    <option value="2019">2019</option>
-    <option value="2020">2020</option>
-  </select>
-    </span>
 
-            <span class="ml30">
-        <span class="mr10 fs15 fw400 fc_black">농장명</span>
-    <span class="farm_name">
-        <input type="text" value="아우라농장" readonly>
-    </span>
-    <span class="farm_search">
-      <input onclick="location.href='#pop2'" type="button" value="농장검색">
-    </span>
-    </span>
-        </div>
-    </div>
-    <div class="nav_under_ab"></div>
-</div>
 
 
 <section class="w1200">
+
     <div class="content_title tab_2_relative">
-        성적 분석 완료
-        <span class="ml10 black_btn">
-        <input type="button" value="다시하기">
-    </span>
-        <span class="ml5 black_btn">
-        <input type="button" value="전체 펼치기">
-    </span>
+        성적 분석 내용
+        <!-- 20210816 수정 -->
+        <span class="ml10 black_btn btn_reset">
+            <input type="button" value="- 전체 접기">
+        </span>
+        <span class="ml5 black_btn btn_allview">
+            <input type="button" value="+ 전체 펼치기">
+        </span>
+
+        <!--// 20210816 수정 -->
         <div class="tab_2_absolute">
         <span class="gray_btn">
         <input type="button" value="그림 다운로드">
     </span>
-            <span class="ml5 navy_btn">
+            <span class="gray_btn">
         <input type="button" value="엑셀 다운로드">
+    </span>
+            <span class="ml5 navy_btn">
+        <input onclick="location.href='gnb_3.html'" type="button" value="다시하기">
     </span>
         </div>
     </div>
     <div class="content_area_3 area_bg_white area_border_radius">
+        <!-- 20210816 수정 -->
+        <style>
+
+
+            /*차트 영역을 보이게 하기 위해서 사용, 기존 전역변수 영역과 충돌하기 때문에 해당 페이지에 별도 생성*/
+            body, form, div, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, fieldset, th, td, input, textarea, button, select, pre {
+                overflow: visible;
+            }
+
+            .gnb3_chart_area .chart_content {
+                position: relative;
+                width: 704px;
+                height: 659px;
+            }
+
+            .gnb3_chart_area .chart_box {
+                display: none;
+                position: absolute;
+                left: 50%;
+                top: 0;
+                width: 110px;
+                background-color: #fff;
+                border-radius: 10px;
+                border: 1px solid #000;
+                border-top-width: 4px;
+                border-right-width: 4px;;
+                padding: 8px 5px;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+
+            .gnb3_chart_area.all .chart_box {
+                display: block;
+            }
+
+            .gnb3_chart_area .chart_box:before {
+                content: '';
+                display: block;
+                position: absolute;
+                left: 50%;
+                margin-left: -0.5px;
+                bottom: -32px;
+                width: 1px;
+                background-color: #000;
+                height: 32px;
+            }
+
+            .gnb3_chart_area .chart_box.up {
+                border-color: #ff444c;
+            }
+
+            .gnb3_chart_area .chart_box.down {
+                border-color: #29c760;
+            }
+
+            .gnb3_chart_area .chart_box.chart_1 {
+                display: block;
+                margin-left: -55px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_1:after {
+                display: none;
+                content: '';
+                position: absolute;
+                left: 50%;
+                margin-left: -166px;
+                bottom: -65px;
+                width: 332px;
+                background: url(img/border_line_l.png) no-repeat 0 0;
+                height: 33px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_1.active:after {
+                display: block;
+            }
+
+            .gnb3_chart_area .chart_box.chart_2 {
+                margin-left: -223px;
+                top: 149px
+            }
+
+            .gnb3_chart_area .chart_box.chart_2:after {
+                content: '';
+                display: none;
+                position: absolute;
+                left: 50%;
+                margin-left: -65px;
+                bottom: -111px;
+                width: 130px;
+                background: url(img/border_line_s2.png) no-repeat 0 0;
+                height: 82px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_2.active:after {
+                display: block;
+            }
+
+            .gnb3_chart_area .chart_box.chart_3 {
+                margin-left: 108px;
+                top: 149px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_3:after {
+                content: '';
+                display: none;
+                position: absolute;
+                left: 50%;
+                margin-left: -129.5px;
+                bottom: -111px;
+                width: 259px;
+                background: url(img/border_line_m2.png) no-repeat 0 0;
+                height: 83px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_3.active:after {
+                display: block;
+            }
+
+
+            .gnb3_chart_area .chart_box.chart_4 {
+                margin-left: -287px;
+                top: 286px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_4:after {
+                content: '';
+                display: none;
+                position: absolute;
+                left: 50%;
+                margin-left: -65px;
+                bottom: -111px;
+                width: 130px;
+                background: url(img/border_line_s2.png) no-repeat 0 0;
+                height: 82px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_4.active:after {
+                display: block;
+            }
+
+            .gnb3_chart_area .chart_box.chart_5 {
+                margin-left: -161px;
+                top: 286px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_6 {
+                margin-left: -21px;
+                top: 286px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_7 {
+                margin-left: 105px;
+                top: 286px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_7:after {
+                content: '';
+                display: none;
+                position: absolute;
+                left: 50%;
+                margin-left: -129.5px;
+                bottom: -111px;
+                width: 259px;
+                background: url(img/border_line_m2.png) no-repeat 0 0;
+                height: 83px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_7.active:after {
+                display: block;
+            }
+
+            .gnb3_chart_area .chart_box.chart_8 {
+                margin-left: 234px;
+                top: 286px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_9 {
+                margin-left: -351px;
+                top: 428px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_10 {
+                margin-left: -227px;
+                top: 428px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_11 {
+                margin-left: -21px;
+                top: 428px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_11:after {
+                content: '';
+                display: none;
+                position: absolute;
+                left: 50%;
+                margin-left: -65px;
+                bottom: -111px;
+                width: 130px;
+                background: url(img/border_line_s2.png) no-repeat 0 0;
+                height: 82px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_11.active:after {
+                display: block;
+            }
+
+            .gnb3_chart_area .chart_box.chart_12 {
+                margin-left: 105px;
+                top: 428px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_13 {
+                margin-left: 234px;
+                top: 428px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_13:after {
+                content: '';
+                display: none;
+                position: absolute;
+                left: 50%;
+                margin-left: -65px;
+                bottom: -111px;
+                width: 130px;
+                background: url(img/border_line_s2.png) no-repeat 0 0;
+                height: 82px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_13.active:after {
+                display: block;
+            }
+
+            .gnb3_chart_area .chart_box.chart_14 {
+                margin-left: -85px;
+                top: 572px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_15 {
+                margin-left: 41px;
+                top: 572px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_16 {
+                margin-left: 170px;
+                top: 572px;
+            }
+
+            .gnb3_chart_area .chart_box.chart_17 {
+                margin-left: 296px;
+                top: 572px;
+            }
+
+            .gnb3_chart_area .chart_desc {
+                position: relative;
+                border-bottom: 1px solid #111;
+                padding-bottom: 3px;
+                color: #111;
+                font-size: 12px;
+                font-weight: bold;
+            }
+
+            /* .gnb3_chart_area .chart_desc:after{content:'';display:block;width:1px;height:32px;background-color:#111;position:absolute;left:50%;margin-left:-0.5px;bottom:-32px;} */
+
+            .gnb3_chart_area .chart_desc span {
+                position: absolute;
+                right: 5px;
+                top: 0;
+                vertical-align: middle;
+            }
+
+            .gnb3_chart_area .chart_desc span img {
+                vertical-align: middle;
+            }
+
+            .gnb3_chart_area .btn_unfold {
+                position: absolute;
+                left: 50%;
+                bottom: -41px;
+                transform: translateX(-50%);
+                width: 18px;
+                height: 18px;
+                background: url(img/btn_plus.png) no-repeat 0 0;
+                z-index: 10;
+            }
+
+            .gnb3_chart_area .chart_box.active .btn_unfold {
+                background-image: url(img/btn_minus.png);
+            }
+
+            .gnb3_chart_area .chart_grid {
+                display: table;
+                width: 100%;
+                padding-top: 9px;
+            }
+
+            .gnb3_chart_area .chart_grid:after {
+                content: '';
+                display: block;
+                clear: both;
+            }
+
+            .gnb3_chart_area .chart_grid .chart_col {
+                display: table-cell;
+                width: 50%;
+                vertical-align: middle;
+                text-align: center;
+            }
+
+            .gnb3_chart_area .chart_grid .chart_col span {
+                display: block;
+                font-size: 12px;
+                color: #111;
+            }
+
+            .gnb3_chart_area .chart_grid .chart_col a {
+                color: #0097e0;
+                font-size: 18px;
+                text-decoration: underline;
+            }
+
+            .gnb3_chart_area .chart_box.chart_5:before,
+            .gnb3_chart_area .chart_box.chart_6:before,
+            .gnb3_chart_area .chart_box.chart_8:before,
+            .gnb3_chart_area .chart_box.chart_9:before,
+            .gnb3_chart_area .chart_box.chart_10:before,
+            .gnb3_chart_area .chart_box.chart_12:before,
+            .gnb3_chart_area .chart_box.chart_14:before,
+            .gnb3_chart_area .chart_box.chart_15:before,
+            .gnb3_chart_area .chart_box.chart_16:before,
+            .gnb3_chart_area .chart_box.chart_17:before {
+                display: none;
+            }
+
+            .gnb3_chart_area .chart_box.chart_5 .btn_unfold,
+            .gnb3_chart_area .chart_box.chart_6 .btn_unfold,
+            .gnb3_chart_area .chart_box.chart_8 .btn_unfold,
+            .gnb3_chart_area .chart_box.chart_9 .btn_unfold,
+            .gnb3_chart_area .chart_box.chart_10 .btn_unfold,
+            .gnb3_chart_area .chart_box.chart_12 .btn_unfold,
+            .gnb3_chart_area .chart_box.chart_14 .btn_unfold,
+            .gnb3_chart_area .chart_box.chart_15 .btn_unfold,
+            .gnb3_chart_area .chart_box.chart_16 .btn_unfold,
+            .gnb3_chart_area .chart_box.chart_17 .btn_unfold {
+                display: none;
+            }
+
+
+        </style>
         <div class="gnb3_chart_area">
-            <img alt="chart_img" height="650px" src="./img/chart_sample.png">
+            <div class="chart_content" id="chartContent">
+                <!-- 리스트가그려지는곳 -->
+            </div>
         </div>
+        <script>
+            $(function () {
+                createList();
+
+                // 팝업열기
+                $(".btn_popup").on("click", function () {
+                    // 팝업 여는 함수 넣으세요
+                    location.href = '#pop3';
+                });
+
+                // 전체보기
+                $(".btn_allview").on("click", resetOpenAll);
+
+                // 다시보기
+                $(".btn_reset").on("click", resetCloseAll);
+
+
+                // +,- 아이콘 클릭시
+                $(".chart_content .chart_box").each(function (i) {
+                    var idx = i + 1;
+                    $(this).children(".btn_unfold").on("click", function () {
+                        $(this).parent(".chart_box").toggleClass("active");
+                        if (idx == 1) {
+                            if (!$(this).parent(".chart_box").hasClass("active")) {
+                                resetCloseAll();
+                            } else {
+                                $(".chart_2, .chart_3").show();
+
+
+                            }
+                        } else if (idx == 2) {
+                            if (!$(this).parent(".chart_box").hasClass("active")) {
+                                $(".chart_4, .chart_5, .chart_9, .chart_10").hide();
+                                $(".chart_4").removeClass("active");
+
+                            } else {
+                                $(".chart_4, .chart_5").show();
+
+                            }
+                        } else if (idx == 4) {
+                            if (!$(this).parent(".chart_box").hasClass("active")) {
+                                $(".chart_9, .chart_10").hide();
+
+                            } else {
+                                $(".chart_9, .chart_10").show();
+
+                            }
+                        } else if (idx == 3) {
+                            if (!$(this).parent(".chart_box").hasClass("active")) {
+                                $(".chart_6, .chart_7, .chart_8, .chart_11, .chart_12, .chart_13, .chart_14, .chart_15, .chart_16, .chart_17").hide();
+                                $(".chart_7,.chart_11,.chart_13").removeClass("active");
+
+                            } else {
+                                $(".chart_6, .chart_7, .chart_8").show();
+
+                            }
+                        } else if (idx == 7) {
+                            if (!$(this).parent(".chart_box").hasClass("active")) {
+                                $(".chart_11, .chart_12, .chart_13, .chart_14, .chart_15, .chart_16, .chart_17").hide();
+                                $(".chart_11,.chart_13").removeClass("active");
+
+                            } else {
+                                $(".chart_11, .chart_12, .chart_13").show();
+
+                            }
+                        } else if (idx == 11) {
+                            if (!$(this).parent(".chart_box").hasClass("active")) {
+                                $(".chart_14, .chart_15").hide();
+                                $(".chart_11").removeClass("active");
+
+                            } else {
+                                $(".chart_14, .chart_15").show();
+
+                            }
+                        } else if (idx == 13) {
+                            if (!$(this).parent(".chart_box").hasClass("active")) {
+                                $(".chart_16, .chart_17").hide();
+                                $(".chart_13").removeClass("active");
+
+                            } else {
+                                $(".chart_16, .chart_17").show();
+
+                            }
+                        }
+
+                    });
+
+                });
+
+            });
+
+            function resetOpenAll() {
+                $(".gnb3_chart_area").addClass("all");
+                $(".chart_box").addClass("active");
+                $(".chart_box").show();
+            }
+
+            function resetCloseAll() {
+                $(".gnb3_chart_area").removeClass("all");
+                $(".chart_box").removeClass("active");
+                $(".chart_box").hide();
+                $(".chart_1").show();
+            }
+
+
+            function createList() {
+                for (var i = 0; i < chartList.length; i++) {
+                    var no = 'chart_' + (i + 1);
+                    var desc = chartList[i].desc;
+                    var num1 = chartList[i].num1;
+                    var num2 = chartList[i].num2;
+                    var num3 = chartList[i].num3;
+                    var result = chartList[i].result;
+                    setTag('chartContent', no, desc, num1, num2, num3, result);
+                }
+            }
+
+            function setTag(id, no, desc, num1, num2, num3, result) {
+                $('#' + id).append(
+                    '<div class="chart_box ' + no + ' ' + result + '">' +
+                    '<div class="chart_desc">' +
+                    '<strong>' + desc + '</strong>' +
+                    '<span><img src="img/search.png" alt="" /></span>' +
+                    '</div>' +
+                    '<div class="chart_grid">' +
+                    '<div class="chart_col">' +
+                    '<span>' + num1 + '</span>' +
+                    '<span>' + num2 + '</span>' +
+                    '</div>' +
+                    '<div class="chart_col">' +
+                    '<a href="javascript:;" class="btn_popup">' + num3 + '</a>' +
+                    '</div>' +
+                    '</div>' +
+                    '<a href="javascript:;" class="btn_unfold"></a>' +
+                    '</div>'
+                );
+            }
+
+            var chartList = [
+                {
+                    desc: 'PSY',
+                    num1: '26.5',
+                    num2: '19.7',
+                    num3: '26.8',
+                    result: 'up'
+                },
+                {
+
+                    desc: '평균이유(두)',
+                    num1: '26.5',
+                    num2: '19.7',
+                    num3: '26.8',
+                    result: 'down'
+                },
+                {
+                    desc: '모돈회전율',
+                    num1: '26.5',
+                    num2: '19.7',
+                    num3: '26.8',
+                    result: 'down'
+                },
+                {
+                    desc: '평균실산(두)',
+                    num1: '26.5',
+                    num2: '19.7',
+                    num3: '26.8',
+                    result: 'up'
+                },
+                {
+
+                    desc: '이유전폐사율(%)',
+                    num1: '26.5',
+                    num2: '19.7',
+                    num3: '26.8',
+                    result: 'down'
+                },
+                {
+                    desc: '포유기간(일)',
+                    num1: '26.5',
+                    num2: '19.7',
+                    num3: '26.8',
+                    result: 'up'
+                },
+                {
+
+                    desc: '비생산일수',
+                    num1: '26.5',
+                    num2: '19.7',
+                    num3: '26.8',
+                    result: 'down'
+                },
+                {
+                    desc: '임신기간',
+                    num1: '26.5',
+                    num2: '19.7',
+                    num3: '26.8',
+                    result: 'up'
+                },
+                {
+
+                    desc: '평균총산(두)',
+                    num1: '26.5',
+                    num2: '19.7',
+                    num3: '26.8',
+                    result: 'down'
+                },
+                {
+                    desc: '생시자돈사고율',
+                    num1: '26.5',
+                    num2: '19.7',
+                    num3: '26.8',
+                    result: 'down'
+                },
+                {
+                    desc: '교배후기간',
+                    num1: '26.5',
+                    num2: '19.7',
+                    num3: '26.8',
+                    result: 'up'
+                },
+                {
+
+                    desc: '이유~교배(일)',
+                    num1: '26.5',
+                    num2: '19.7',
+                    num3: '26.8',
+                    result: 'down'
+                },
+                {
+                    desc: '도태기간',
+                    num1: '26.5',
+                    num2: '19.7',
+                    num3: '26.8',
+                    result: 'up'
+                },
+                {
+                    desc: '이유~교배(일)',
+                    num1: '26.5',
+                    num2: '19.7',
+                    num3: '26.8',
+                    result: 'up'
+                },
+                {
+
+                    desc: '교배후기간',
+                    num1: '26.5',
+                    num2: '19.7',
+                    num3: '26.8',
+                    result: 'down'
+                },
+                {
+                    desc: '이유~도폐사일',
+                    num1: '26.5',
+                    num2: '19.7',
+                    num3: '26.8',
+                    result: 'down'
+                },
+                {
+
+                    desc: '사고~도폐사일',
+                    num1: '26.5',
+                    num2: '19.7',
+                    num3: '26.8',
+                    result: 'down'
+                }
+            ];
+        </script>
+        <!--// 20210816 수정 -->
         <div class="gnb3_chart_area_hint area_bg area_border_radius">
             <div class="hint_title">
                 모돈회전율

@@ -18,7 +18,7 @@ body, form, div, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, fieldset, in
     font-size: 13px;
     font-weight: normal;
     line-height: normal;
-    overflow: auto
+    overflow: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -1052,7 +1052,7 @@ nav {
 .popup {
     display: none;
     position: fixed;
-    z-index: 5;
+    z-index: 85;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -1093,7 +1093,7 @@ nav {
 
 .popup:target + .dim {
     opacity: 1;
-    z-index: 2;
+    z-index: 82;
 }
 
 
@@ -1129,48 +1129,12 @@ nav {
     border-radius: 5px;
 }
 
-/*.t_head {*/
-/*    width: 350px;*/
-/*    height: 30px;*/
-/*    line-height: 30px;*/
-/*    background: lightgrey;*/
-/*    overflow: hidden;*/
-/*    border: 1px solid #cccccc;*/
-/*}*/
-
-/*.t_head_num {*/
-/*    display: inline-block;*/
-/*    line-height: 30px;*/
-/*    width: 42px;*/
-/*    height: 30px;*/
-/*}*/
-
-/*.t_head_farm {*/
-/*    display: inline-block;*/
-/*    line-height: 30px;*/
-/*    width: 125px;*/
-/*    height: 30px;*/
-/*}*/
-
-/*.t_head_master {*/
-/*    display: inline-block;*/
-/*    line-height: 30px;*/
-/*    width: 65px;*/
-/*    height: 30px;*/
-/*}*/
-
-/*.t_head_location {*/
-/*    display: inline-block;*/
-/*    line-height: 30px;*/
-/*    width: 105px;*/
-/*    height: 30px;*/
-/*}*/
-
 .t_list {
     width: 320px;
     height: 140px;
     background: white;
     border: 1px solid #cccccc;
+    overflow-y: scroll;
 }
 
 .t_list table thead {
@@ -1208,7 +1172,7 @@ nav {
 .popup2 {
     display: none;
     position: fixed;
-    z-index: 5;
+    z-index: 85;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -1249,7 +1213,7 @@ nav {
 
 .popup2:target + .dim {
     opacity: 1;
-    z-index: 2;
+    z-index: 82;
 }
 
 
@@ -1258,7 +1222,7 @@ nav {
 .popup3 {
     display: none;
     position: fixed;
-    z-index: 5;
+    z-index: 85;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -1299,7 +1263,7 @@ nav {
 
 .popup3:target + .dim {
     opacity: 1;
-    z-index: 2;
+    z-index: 82;
 }
 
 .popup3_table_area {
@@ -1398,7 +1362,8 @@ nav {
     background: #2F2D75;
     width: 100%;
     height: 100%;
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 70px;
 }
 
 .abataimg {
@@ -1761,6 +1726,7 @@ select {
     color: black;
 }
 
+
 .content_area {
     display: block;
     position: relative;
@@ -1851,7 +1817,7 @@ select {
 .content_area_3 {
     display: block;
     position: relative;
-    min-height: 700px;
+    min-height: 750px;
     height: fit-content;
     margin-top: 10px;
     margin-bottom: 60px;
@@ -1859,10 +1825,11 @@ select {
     font-weight: 400;
 }
 
+
 .gnb3_chart_area {
     display: block;
     position: absolute;
-    top: 20px;
+    top: 40px;
     left: 50px;
 }
 
@@ -1920,9 +1887,6 @@ select {
 
 /*gnb_3 css : 성적 분석 메뉴*/
 
-.overflow-x {
-    overflow-x: hidden;
-}
 
 .grade_area {
     display: block;
@@ -2013,3 +1977,4 @@ select {
     color: white;
     font-weight: bold;
 }
+
