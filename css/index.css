@@ -1845,11 +1845,12 @@ select {
 .gnb3_chart_area_hint {
     display: block;
     position: absolute;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     top: 20px;
     right: 20px;
     width: 400px;
-    height: 250px;
+    height: 200px;
     overflow-y: scroll;
 }
 
@@ -1860,6 +1861,29 @@ select {
 
 
 .hint_content {
+    margin-top: 10px;
+    font-size: 11pt;
+    font-weight: 400;
+}
+
+.gnb3_chart_area_discription {
+    display: block;
+    position: absolute;
+    padding: 20px;
+    top: 200px;
+    right: 20px;
+    width: 400px;
+    min-height: 200px;
+    height: fit-content;
+}
+
+.discription_title {
+    font-size: 13pt;
+    font-weight: 600;
+}
+
+
+.discription_content {
     margin-top: 10px;
     font-size: 11pt;
     font-weight: 400;
