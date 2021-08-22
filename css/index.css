@@ -2463,6 +2463,7 @@ select option {
 
 .gnb3_chart_area .chart_desc span img {
     vertical-align: middle;
+    cursor: pointer;
 }
 
 .gnb3_chart_area .btn_unfold {
