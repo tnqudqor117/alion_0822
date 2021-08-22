@@ -1534,7 +1534,8 @@ nav {
     content: url("../img/arrow_down.png");
     font-size: 5pt;
     position: absolute;
-    left: 100px;
+    left: 50px;
+    top: 0px;
     transition: all 0.3s;
 }
 
@@ -1623,7 +1624,8 @@ nav {
     content: url("../img/arrow_down.png");
     font-size: 5pt;
     position: absolute;
-    left: 250px;
+    left: 200px;
+    top: 0px;
     transition: all 0.3s;
 }
 
