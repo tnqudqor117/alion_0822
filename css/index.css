@@ -11,32 +11,36 @@
     max-height: 1000000px
 }
 
-body, form, div, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, fieldset, input, textarea, button, select, pre {
+body, form, div, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, ol, fieldset, input, textarea, button, select, pre {
     margin: 0;
     padding: 0;
     font-family: "Noto Sans KR", "Malgun Gothic", "맑은 고딕", "Hiragino Sans GB", "Microsoft Yahei", "돋움", Dotum, "굴림", Gulim, "Apple Gothic", "Apple SD Gothic Neo", Sans-serif;
     font-size: 13px;
     font-weight: normal;
     line-height: normal;
-    overflow: hidden;
 }
 
 ::-webkit-scrollbar {
-    width: 6px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #999999;
+    background-color: rgba(0, 0, 0, .05);
 }
 
 ::-webkit-scrollbar-thumb {
     border-radius: 5px;
-    background-color: #EFEFEF;
+    background-color: rgba(0, 0, 0, .2);
 }
 
 ::-webkit-scrollbar-button {
     width: fit-content;
     height: fit-content;
+}
+
+
+.overflow-x {
+    overflow-x: hidden;
 }
 
 .overflow-y {
@@ -357,6 +361,10 @@ a.u:hover {
 
 .mt30 {
     margin-top: 30px
+}
+
+.mt-30 {
+    margin-top: -30px
 }
 
 .mt35 {
@@ -1118,6 +1126,7 @@ nav {
     background: white;
     border: 1px solid #cccccc;
     overflow-y: auto;
+    margin-top: 80px;
 }
 
 .t_list table thead {
@@ -1473,7 +1482,6 @@ nav {
     height: 60px;
     background: white;
     top: 70px;
-    overflow: hidden;
     padding-top: 11.5px;
 }
 
@@ -1489,6 +1497,201 @@ nav {
     right: 0;
     top: 0;
 }
+
+.wrap * {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap ul li,
+.wrap ol li {
+    list-style: none;
+}
+
+.select_box .box {
+    display: inline-block;
+    position: relative;
+    width: 120px;
+    height: 35px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.select_box .box .select {
+    position: relative;
+    padding: 0 10px;
+    height: 40px;
+    width: 120px;
+    font-size: 13px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.select_box .box .select:after {
+    content: url("../img/arrow_down.png");
+    font-size: 5pt;
+    position: absolute;
+    left: 100px;
+    transition: all 0.3s;
+}
+
+.select_box.on .box .select:after {
+    content: url("../img/arrow_up.png");
+    transition: all 0.3s;
+}
+
+.select_box .box .list {
+    display: none;
+    overflow-y: auto;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    z-index: 10;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 0;
+    width: 100%;
+    max-height: 200px;
+    background-color: #fff;
+}
+
+.select_box .box .list::-webkit-scrollbar {
+    width: 10px;
+    height: 0;
+}
+
+.select_box .box .list::-webkit-scrollbar-button:start:decrement,
+.select_box .box .list::-webkit-scrollbar-button:end:increment {
+    display: block;
+    height: 0;
+}
+
+.select_box .box .list::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, .05);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.select_box .box .list::-webkit-scrollbar-thumb {
+    height: 50px;
+    width: 50px;
+    background: rgba(0, 0, 0, .2);
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.select_box .box .list > li {
+    box-sizing: border-box;
+    padding: 0 10px;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.select_box .box .list > li:hover {
+    background-color: #dbdbdb;
+}
+
+/*<=============================select_box_2============================>*/
+
+.select_box_2 .box {
+    display: inline-block;
+    position: relative;
+    width: 270px;
+    height: 35px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.select_box_2 .box .select {
+    position: relative;
+    padding: 0 10px;
+    height: 40px;
+    width: 200px;
+    font-size: 13px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.select_box_2 .box .select:after {
+    content: url("../img/arrow_down.png");
+    font-size: 5pt;
+    position: absolute;
+    left: 250px;
+    transition: all 0.3s;
+}
+
+.select_box_2.on .box .select:after {
+    content: url("../img/arrow_up.png");
+    transition: all 0.3s;
+}
+
+.select_box_2 .box .list {
+    display: none;
+    overflow-y: auto;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    z-index: 10;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 0;
+    width: 100%;
+    max-height: 200px;
+    background-color: #fff;
+}
+
+.select_box_2 .box .list::-webkit-scrollbar {
+    width: 10px;
+    height: 0;
+}
+
+.select_box_2 .box .list::-webkit-scrollbar-button:start:decrement,
+.select_box_2 .box .list::-webkit-scrollbar-button:end:increment {
+    display: block;
+    height: 0;
+}
+
+.select_box_2 .box .list::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, .05);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.select_box_2 .box .list::-webkit-scrollbar-thumb {
+    height: 50px;
+    width: 50px;
+    background: rgba(0, 0, 0, .2);
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.select_box_2 .box .list > li {
+    box-sizing: border-box;
+    padding: 0 10px;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.select_box_2 .box .list > li:hover {
+    background-color: #dbdbdb;
+}
+
+
+
+
+
+
+
+
+
 
 .tab_2_relative {
     display: block;
@@ -1991,4 +2194,343 @@ select option {
     width: 500px;
     height: fit-content;
     overflow-y: scroll;
+}
+
+
+.gnb3_chart_area .chart_content {
+    position: relative;
+    width: 704px;
+    height: 659px;
+}
+
+.gnb3_chart_area .chart_box {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 110px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #000;
+    border-top-width: 4px;
+    border-right-width: 4px;;
+    padding: 8px 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.gnb3_chart_area.all .chart_box {
+    display: block;
+}
+
+.gnb3_chart_area .chart_box:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -0.5px;
+    bottom: -32px;
+    width: 1px;
+    background-color: #000;
+    height: 32px;
+}
+
+.gnb3_chart_area .chart_box.up {
+    border-color: #ff444c;
+}
+
+.gnb3_chart_area .chart_box.down {
+    border-color: #29c760;
+}
+
+.gnb3_chart_area .chart_box.chart_1 {
+    display: block;
+    margin-left: -55px;
+}
+
+.gnb3_chart_area .chart_box.chart_1:after {
+    display: none;
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -166px;
+    bottom: -65px;
+    width: 332px;
+    background: url(../img/border_line_l.png) no-repeat 0 0;
+    height: 33px;
+}
+
+.gnb3_chart_area .chart_box.chart_1.active:after {
+    display: block;
+}
+
+.gnb3_chart_area .chart_box.chart_2 {
+    margin-left: -223px;
+    top: 149px
+}
+
+.gnb3_chart_area .chart_box.chart_2:after {
+    content: '';
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -65px;
+    bottom: -111px;
+    width: 130px;
+    background: url(../img/border_line_s2.png) no-repeat 0 0;
+    height: 82px;
+}
+
+.gnb3_chart_area .chart_box.chart_2.active:after {
+    display: block;
+}
+
+.gnb3_chart_area .chart_box.chart_3 {
+    margin-left: 108px;
+    top: 149px;
+}
+
+.gnb3_chart_area .chart_box.chart_3:after {
+    content: '';
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -129.5px;
+    bottom: -111px;
+    width: 259px;
+    background: url(../img/border_line_m2.png) no-repeat 0 0;
+    height: 83px;
+}
+
+.gnb3_chart_area .chart_box.chart_3.active:after {
+    display: block;
+}
+
+
+.gnb3_chart_area .chart_box.chart_4 {
+    margin-left: -287px;
+    top: 286px;
+}
+
+.gnb3_chart_area .chart_box.chart_4:after {
+    content: '';
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -65px;
+    bottom: -111px;
+    width: 130px;
+    background: url(../img/border_line_s2.png) no-repeat 0 0;
+    height: 82px;
+}
+
+.gnb3_chart_area .chart_box.chart_4.active:after {
+    display: block;
+}
+
+.gnb3_chart_area .chart_box.chart_5 {
+    margin-left: -161px;
+    top: 286px;
+}
+
+.gnb3_chart_area .chart_box.chart_6 {
+    margin-left: -21px;
+    top: 286px;
+}
+
+.gnb3_chart_area .chart_box.chart_7 {
+    margin-left: 105px;
+    top: 286px;
+}
+
+.gnb3_chart_area .chart_box.chart_7:after {
+    content: '';
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -129.5px;
+    bottom: -111px;
+    width: 259px;
+    background: url(../img/border_line_m2.png) no-repeat 0 0;
+    height: 83px;
+}
+
+.gnb3_chart_area .chart_box.chart_7.active:after {
+    display: block;
+}
+
+.gnb3_chart_area .chart_box.chart_8 {
+    margin-left: 234px;
+    top: 286px;
+}
+
+.gnb3_chart_area .chart_box.chart_9 {
+    margin-left: -351px;
+    top: 428px;
+}
+
+.gnb3_chart_area .chart_box.chart_10 {
+    margin-left: -227px;
+    top: 428px;
+}
+
+.gnb3_chart_area .chart_box.chart_11 {
+    margin-left: -21px;
+    top: 428px;
+}
+
+.gnb3_chart_area .chart_box.chart_11:after {
+    content: '';
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -65px;
+    bottom: -111px;
+    width: 130px;
+    background: url(../img/border_line_s2.png) no-repeat 0 0;
+    height: 82px;
+}
+
+.gnb3_chart_area .chart_box.chart_11.active:after {
+    display: block;
+}
+
+.gnb3_chart_area .chart_box.chart_12 {
+    margin-left: 105px;
+    top: 428px;
+}
+
+.gnb3_chart_area .chart_box.chart_13 {
+    margin-left: 234px;
+    top: 428px;
+}
+
+.gnb3_chart_area .chart_box.chart_13:after {
+    content: '';
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -65px;
+    bottom: -111px;
+    width: 130px;
+    background: url(../img/border_line_s2.png) no-repeat 0 0;
+    height: 82px;
+}
+
+.gnb3_chart_area .chart_box.chart_13.active:after {
+    display: block;
+}
+
+.gnb3_chart_area .chart_box.chart_14 {
+    margin-left: -85px;
+    top: 572px;
+}
+
+.gnb3_chart_area .chart_box.chart_15 {
+    margin-left: 41px;
+    top: 572px;
+}
+
+.gnb3_chart_area .chart_box.chart_16 {
+    margin-left: 170px;
+    top: 572px;
+}
+
+.gnb3_chart_area .chart_box.chart_17 {
+    margin-left: 296px;
+    top: 572px;
+}
+
+.gnb3_chart_area .chart_desc {
+    position: relative;
+    border-bottom: 1px solid #111;
+    padding-bottom: 3px;
+    color: #111;
+    font-size: 11.3px;
+    font-weight: bold;
+}
+
+/* .gnb3_chart_area .chart_desc:after{content:'';display:block;width:1px;height:32px;background-color:#111;position:absolute;left:50%;margin-left:-0.5px;bottom:-32px;} */
+
+.gnb3_chart_area .chart_desc span {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    vertical-align: middle;
+}
+
+.gnb3_chart_area .chart_desc span img {
+    vertical-align: middle;
+}
+
+.gnb3_chart_area .btn_unfold {
+    position: absolute;
+    left: 50%;
+    bottom: -41px;
+    transform: translateX(-50%);
+    width: 18px;
+    height: 18px;
+    background: url(../img/btn_plus.png) no-repeat 0 0;
+    z-index: 10;
+}
+
+.gnb3_chart_area .chart_box.active .btn_unfold {
+    background-image: url(../img/btn_minus.png);
+}
+
+.gnb3_chart_area .chart_grid {
+    display: table;
+    width: 100%;
+    padding-top: 9px;
+}
+
+.gnb3_chart_area .chart_grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.gnb3_chart_area .chart_grid .chart_col {
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.gnb3_chart_area .chart_grid .chart_col span {
+    display: block;
+    font-size: 12px;
+    color: #111;
+}
+
+.gnb3_chart_area .chart_grid .chart_col a {
+    color: #0097e0;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.gnb3_chart_area .chart_box.chart_5:before,
+.gnb3_chart_area .chart_box.chart_6:before,
+.gnb3_chart_area .chart_box.chart_8:before,
+.gnb3_chart_area .chart_box.chart_9:before,
+.gnb3_chart_area .chart_box.chart_10:before,
+.gnb3_chart_area .chart_box.chart_12:before,
+.gnb3_chart_area .chart_box.chart_14:before,
+.gnb3_chart_area .chart_box.chart_15:before,
+.gnb3_chart_area .chart_box.chart_16:before,
+.gnb3_chart_area .chart_box.chart_17:before {
+    display: none;
+}
+
+.gnb3_chart_area .chart_box.chart_5 .btn_unfold,
+.gnb3_chart_area .chart_box.chart_6 .btn_unfold,
+.gnb3_chart_area .chart_box.chart_8 .btn_unfold,
+.gnb3_chart_area .chart_box.chart_9 .btn_unfold,
+.gnb3_chart_area .chart_box.chart_10 .btn_unfold,
+.gnb3_chart_area .chart_box.chart_12 .btn_unfold,
+.gnb3_chart_area .chart_box.chart_14 .btn_unfold,
+.gnb3_chart_area .chart_box.chart_15 .btn_unfold,
+.gnb3_chart_area .chart_box.chart_16 .btn_unfold,
+.gnb3_chart_area .chart_box.chart_17 .btn_unfold {
+    display: none;
 }

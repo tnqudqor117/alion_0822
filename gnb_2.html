@@ -19,6 +19,22 @@
                 crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <script src="js/wow.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <script>
+            $(function () {
+                var select = new CustomSelectBox('.select_box');
+            });
+        </script>
+
+        <script>
+            $(function () {
+                var select = new CustomSelectBox('.select_box_2');
+            });
+        </script>
+
+
         <script>
             var wow = new WOW(
                 {
@@ -149,7 +165,7 @@
         </div>
 
 
-        <div class="t_list ml5 mt20">
+        <div class="t_list ml10">
             <table align="center" border="0" height="fit-content" width="320px">
                 <thead align="center">
                 <tr>
@@ -215,7 +231,6 @@
             </table>
 
 
-
         </div>
 
         <div class="farm_input mt20 fs14 fw400 mt20 ml10">
@@ -241,41 +256,54 @@
     <div class="w1200">
         <div class="tab_1_relative">
             <span class="fs15 fc_black fw400 mr10">항목</span>
-            <span class="farm_item">
-            <select name="item">
-      <option selected="selected" value="item1">PSY에 대한 포유기간의 영향력 분석</option>
-      <option value="item2">총산자수에 대한 초교배일령의 영향력 분석</option>
-      <option value="item3">발정재귀일에 대한 포유기간의 영향력 분석</option>
-      <option value="item4">총산자수에 대한 포유기간의 영향력 분석</option>
-       <option value="item5">총산자수에 대한 분만율의 영향력 분석</option>
-  </select>
+            <span class="wrap">
+    <span class="select_box_2">
+        <span class="box">
+            <span class="select">PSY 대한 포유기간의 영향력 분석</span>
+            <ul class="list">
+                <li class="selected">PSY 대한 포유기간의 영향력 분석</li>
+                <li>총산자수에 대한 초교배일령의 영향력 분석</li>
+                <li>발정재귀일에 대한 포유기간의 영향력 분석</li>
+                <li>총산자수에 대한 포유기간의 영향력 분석</li>
+                <li>총산자수에 대한 분만율의 영향력 분석</li>
+            </ul>
+        </span>
+    </span>
+
+
     </span>
             <span class="ml30 fs15 fc_black fw400 mr10">연도</span>
-            <span class="farm_year">
-            <select name="year">
-      <option selected="selected" value="2000">2000</option>
-      <option value="2001">2001</option>
-      <option value="2002">2002</option>
-      <option value="2003">2003</option>
-       <option value="2004">2004</option>
-        <option value="2005">2005</option>
-       <option value="2006">2006</option>
-    <option value="2007">2007</option>
-    <option value="2008">2008</option>
-    <option value="2009">2009</option>
-    <option value="2010">2010</option>
-    <option value="2011">2011</option>
-    <option value="2012">2012</option>
-    <option value="2013">2013</option>
-    <option value="2014">2014</option>
-    <option value="2015">2015</option>
-    <option value="2016">2016</option>
-    <option value="2017">2017</option>
-    <option value="2018">2018</option>
-    <option value="2019">2019</option>
-    <option value="2020">2020</option>
-  </select>
+            <span class="wrap">
+    <span class="select_box">
+        <span class="box">
+            <span class="select">연도 선택</span>
+            <ul class="list">
+                <li class="selected">2000</li>
+                <li>2001</li>
+                <li>2002</li>
+                <li>2003</li>
+                <li>2004</li>
+                <li>2005</li>
+                <li>2006</li>
+                <li>2007</li>
+                <li>2008</li>
+                <li>2009</li>
+                <li>2010</li>
+                <li>2011</li>
+                <li>2012</li>
+                <li>2013</li>
+                <li>2014</li>
+                <li>2015</li>
+                <li>2016</li>
+                <li>2017</li>
+                <li>2018</li>
+                <li>2019</li>
+                <li>2020</li>
+                <li>2021</li>
+            </ul>
+        </span>
     </span>
+</span>
 
             <span class="ml30">
         <span class="mr10 fs15 fw400 fc_black">농장명</span>
